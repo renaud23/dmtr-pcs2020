@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(30, 30, 30);
+}
+
+.poc-codification {
+  background-color: rgb(30, 30, 30);
+  color: bisque;
+  font-family: Tahoma, sans-serif;
+
+  .progress {
+    display: block;
+    width: 300px;
+    height: 24px;
+    border: solid 1px black;
+    padding: 1px 1px;
+    line-height: 24px;
+    text-align: center;
+    position: relative;
+
+    .cursor {
+      display: block;
+      height: 24px;
+      background-color: rgba(165, 238, 220, 0.5);
+      position: absolute;
+      top: 1px;
+      left: 1px;
+    }
+  }
+
+  .tree {
+    .clear-list {
+      list-style: none;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      display: block;
+    }
+
+    .tree-label {
+      display: block;
+    }
+
+    .tree-content {
+      background-color: transparent;
+      height: 0;
+
+      &.expended {
+        height: auto;
+      }
+    }
+
+    .toggle {
+      cursor: pointer;
+    }
+
+    .simple-label {
+      height: 0px;
+
+      &.expended {
+        height: auto;
+      }
+    }
+
+    .indent {
+      display: inline-block;
+      height: 4px;
+      width: 18px;
+    }
+  }
+}
