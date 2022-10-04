@@ -1,6 +1,6 @@
 {
   "name": "poc-codification",
-  "homepage": "/poc-codification",
+  "homepage": "/dmtr-pcs2020",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,7 +46,7 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.3"
   },
   "node": {
     "fs": false,
