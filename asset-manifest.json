@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/poc-codification/static/css/main.28e33281.css",
+    "main.js": "/poc-codification/static/js/main.52cce598.js",
+    "index.html": "/poc-codification/index.html",
+    "main.28e33281.css.map": "/poc-codification/static/css/main.28e33281.css.map",
+    "main.52cce598.js.map": "/poc-codification/static/js/main.52cce598.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28e33281.css",
+    "static/js/main.52cce598.js"
+  ]
+}
