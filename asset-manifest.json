@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dmtr-pcs2020/static/css/main.eb2f7d2b.css",
-    "main.js": "/dmtr-pcs2020/static/js/main.eddaaf39.js",
+    "main.js": "/dmtr-pcs2020/static/js/main.4daec25b.js",
     "index.html": "/dmtr-pcs2020/index.html",
     "main.eb2f7d2b.css.map": "/dmtr-pcs2020/static/css/main.eb2f7d2b.css.map",
-    "main.eddaaf39.js.map": "/dmtr-pcs2020/static/js/main.eddaaf39.js.map"
+    "main.4daec25b.js.map": "/dmtr-pcs2020/static/js/main.4daec25b.js.map"
   },
   "entrypoints": [
     "static/css/main.eb2f7d2b.css",
-    "static/js/main.eddaaf39.js"
+    "static/js/main.4daec25b.js"
   ]
 }
