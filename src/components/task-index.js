@@ -20,17 +20,20 @@ function TaskIndex({ storeInfo, data, version, onTerminated }) {
 
   const db = useStoreIndex(storeInfo, "1");
 
-  const log = useCallback(function (info) {
-    const { percent } = info?.message;
-    if (percent !== undefined) {
-      setPercent(percent);
+  const log = useCallback(
+    function (info) {
+      const { percent } = info?.message;
+      if (percent !== undefined) {
+        setPercent(percent);
 
-      if (percent === 100) {
-        setStatus(STATUS.terminated);
-        onTerminated();
+        if (percent === 100) {
+          setStatus(STATUS.terminated);
+          onTerminated();
+        }
       }
-    }
-  }, []);
+    },
+    [onTerminated]
+  );
 
   useEffect(
     function () {
