@@ -13,7 +13,7 @@ const STATUS = {
   terminated: 2,
 };
 
-function TaskIndex({ storeInfo, data, version }) {
+function TaskIndex({ storeInfo, data, version, onTerminated }) {
   const [percent, setPercent] = useState(0);
   const [status, setStatus] = useState(STATUS.ready);
   const [startTime, setStartTime] = useState(undefined);
@@ -27,6 +27,7 @@ function TaskIndex({ storeInfo, data, version }) {
 
       if (percent === 100) {
         setStatus(STATUS.terminated);
+        onTerminated();
       }
     }
   }, []);

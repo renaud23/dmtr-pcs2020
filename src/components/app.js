@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useState, useRef, useMemo } from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -12,9 +12,8 @@ import "./application.scss";
 import * as React from "react";
 import Stack from "@mui/material/Stack";
 import TaskIndex from "./task-index";
-
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
+import createSearching from "../js/suggester-workers/searching/create-searching";
+import Suggester from "./suggester";
 
 const theme = createTheme();
 
@@ -34,36 +33,35 @@ function fetchCorePcs2020() {
 
 const STATUS = {
   ready: 0,
-  loaded: 1,
+  running: 1,
   terminated: 2,
 };
 
-function CreateIndex() {
-  const [data, setData] = useState(undefined);
-  const [storeInfo, setStoreInfo] = useState(undefined);
+function CreateIndex({ storeInfo, data }) {
   const [status, setStatus] = useState(STATUS.ready);
 
   const onClick = useCallback(
     function () {
-      (async function () {
-        if (!storeInfo) {
-          setStoreInfo(await fetchCorePcs2020());
-        }
-        if (!data) {
-          setData(await fetchPcs2020());
-        }
-        setStatus(STATUS.loaded);
-      })();
+      if (data && storeInfo) {
+        setStatus(STATUS.running);
+      }
     },
     [data, storeInfo]
   );
 
-  // useEffect(function () {}, [data, storeInfo]);
+  function onTerminated() {
+    setStatus(STATUS.terminated);
+  }
 
-  if (status !== 0 && data && storeInfo) {
+  if (status !== STATUS.ready) {
     return (
       <Paper style={{ width: "270px", padding: "5px 5px" }}>
-        <TaskIndex data={data} storeInfo={storeInfo} version="1" />
+        <TaskIndex
+          data={data}
+          storeInfo={storeInfo}
+          version="1"
+          onTerminated={onTerminated}
+        />
       </Paper>
     );
   }
@@ -75,7 +73,33 @@ function CreateIndex() {
   );
 }
 
+let init = false;
+
 function App() {
+  const [data, setData] = useState(undefined);
+  const [storeInfo, setStoreInfo] = useState(undefined);
+
+  const searching = useMemo(
+    function () {
+      if (storeInfo) {
+        const { name } = storeInfo;
+        return createSearching(name, "1");
+      }
+      return undefined;
+    },
+    [storeInfo]
+  );
+
+  React.useEffect(function () {
+    (async function () {
+      if (!init) {
+        init = true;
+        setStoreInfo(await fetchCorePcs2020());
+        setData(await fetchPcs2020());
+      }
+    })();
+  }, []);
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -97,17 +121,9 @@ function App() {
         </Toolbar>
       </AppBar>
       <Stack spacing={2} direction="row">
-        <CreateIndex />
+        <CreateIndex data={data} storeInfo={storeInfo} />
       </Stack>
-      <Box
-        sx={{
-          display: "flex",
-          alignItems: "center",
-          "& > :not(style)": { m: 1 },
-        }}
-      >
-        <TextField helperText="pcs2020" label="PCS2020" />
-      </Box>
+      <Suggester searching={searching} />
     </ThemeProvider>
   );
 }
