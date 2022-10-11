@@ -1,17 +1,22 @@
 {
-  "name": "naf-rev2-stop",
+  "name": "pcs2020-lp",
   "fields": [
     {
-      "name": "label",
+      "name": "libm",
       "rules": ["[\\w]+"],
       "language": "French",
       "min": 2
     },
-    { "name": "id" }
+    {
+      "name": "id"
+    }
   ],
   "queryParser": {
     "type": "tokenized",
-    "params": { "language": "French", "pattern": "[\\w.]+" }
+    "params": {
+      "language": "French",
+      "pattern": "[\\w.]+"
+    }
   },
   "version": "1"
 }
