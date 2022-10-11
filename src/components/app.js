@@ -1,6 +1,7 @@
-import { useCallback, useState, useMemo } from "react";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { useState, useMemo, useEffect } from "react";
+import Stack from "@mui/material/Stack";
 import Paper from "@mui/material/Paper";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
@@ -8,72 +9,49 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import "./application.scss";
-import * as React from "react";
-import Stack from "@mui/material/Stack";
-import TaskIndex from "./task-index";
+
+import CreateIndex from "./create-index";
 import createSearching from "../js/suggester-workers/searching/create-searching";
 import Suggester from "./suggester";
+import "./application.scss";
 
 const theme = createTheme();
 
-async function fetchPcs2020() {
-  const data = await fetch(`${window.location.href}/json/pcs2020.json`).then(
+async function fetchPcs2020Lp() {
+  const data = await fetch(`${window.location.href}/json/pcs2020-lp.json`).then(
     (r) => r.json()
   );
 
   return data;
 }
 
-function fetchCorePcs2020() {
-  return fetch(`${window.location.href}/json/pcs2020-core.json`).then((r) =>
+// async function fetchPcs2020() {
+//   const data = await fetch(`${window.location.href}/json/pcs2020.json`).then(
+//     (r) => r.json()
+//   );
+
+//   return data;
+// }
+
+function fetchCorePcs2020Lp() {
+  return fetch(`${window.location.href}/json/pcs2020-lp-core.json`).then((r) =>
     r.json()
   );
 }
 
-const STATUS = {
-  ready: 0,
-  running: 1,
-  terminated: 2,
-};
+let init = false;
 
-function CreateIndex({ storeInfo, data }) {
-  const [status, setStatus] = useState(STATUS.ready);
-
-  const onClick = useCallback(
-    function () {
-      if (data && storeInfo) {
-        setStatus(STATUS.running);
-      }
-    },
-    [data, storeInfo]
-  );
-
-  function onTerminated() {
-    setStatus(STATUS.terminated);
-  }
-
-  if (status !== STATUS.ready) {
-    return (
-      <Paper style={{ width: "270px", padding: "5px 5px" }}>
-        <TaskIndex
-          data={data}
-          storeInfo={storeInfo}
-          version="1"
-          onTerminated={onTerminated}
-        />
-      </Paper>
-    );
-  }
-
+function CardIndex({ data, storeInfo, searching, libelle }) {
   return (
-    <Button variant="text" onClick={onClick}>
-      Index!
-    </Button>
+    <Paper sx={{ width: "fit-content", padding: "8px 8px" }}>
+      <Typography variant="h2"> {libelle}</Typography>
+      <Stack spacing={2} direction="row">
+        <CreateIndex data={data} storeInfo={storeInfo} />
+        <Suggester searching={searching} />
+      </Stack>
+    </Paper>
   );
 }
-
-let init = false;
 
 function App() {
   const [data, setData] = useState(undefined);
@@ -90,12 +68,12 @@ function App() {
     [storeInfo]
   );
 
-  React.useEffect(function () {
+  useEffect(function () {
     (async function () {
       if (!init) {
         init = true;
-        setStoreInfo(await fetchCorePcs2020());
-        setData(await fetchPcs2020());
+        setStoreInfo(await fetchCorePcs2020Lp());
+        setData(await fetchPcs2020Lp());
       }
     })();
   }, []);
@@ -114,16 +92,18 @@ function App() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h1" component="div" sx={{ flexGrow: 1 }}>
             PCS 2020
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
-      <Stack spacing={2} direction="row">
-        <CreateIndex data={data} storeInfo={storeInfo} />
-      </Stack>
-      <Suggester searching={searching} />
+      <CardIndex
+        libelle="Libellés des professions"
+        data={data}
+        storeInfo={storeInfo}
+        searching={searching}
+      />
     </ThemeProvider>
   );
 }
