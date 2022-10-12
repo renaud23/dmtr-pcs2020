@@ -1,2804 +1,2805 @@
 [
- {
-   "id": "10A1",
-   "label": "Exploitants agricoles en grandes cultures",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "10A2",
-   "label": "Maraîchers, horticulteurs et pépiniéristes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "10A3",
-   "label": "Viticulteurs, arboriculteurs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "10A4",
-   "label": "Éleveurs de bovins",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "10A5",
-   "label": "Éleveurs de moutons, chèvres, chevaux et autres herbivores",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "10A6",
-   "label": "Éleveurs de volailles et de porcs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "10A7",
-   "label": "Autres exploitants agricoles",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "10B1",
-   "label": "Entrepreneurs de travaux agricoles, ruraux et forestiers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "10C1",
-   "label": "Entrepreneurs de la pêche et de l’aquaculture",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21A1",
-   "label": "Entrepreneurs en parcs et jardins, paysagistes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21B1",
-   "label": "Artisans maçons",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21B2",
-   "label": "Artisans charpentiers, couvreurs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21B3",
-   "label": "Artisans menuisiers du bâtiment",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21B4",
-   "label": "Artisans plombiers, chauffagistes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21B5",
-   "label": "Artisans électriciens du bâtiment",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21B6",
-   "label": "Artisans de la peinture et des finitions du bâtiment",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21B7",
-   "label": "Artisans tout corps de métier du bâtiment et artisans des travaux publics",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21C1",
-   "label": "Garagistes et autres artisans réparateurs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21C2",
-   "label": "Artisans du travail des métaux et du bois",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21C3",
-   "label": "Artisans de la couture et des autres fabrications",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21C4",
-   "label": "Artisans d’art",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21D1",
-   "label": "Artisans bouchers, charcutiers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21D2",
-   "label": "Artisans boulangers, pâtissiers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21E1",
-   "label": "Conducteurs de taxis, d'ambulances et autres entrepreneurs du transport individuel",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21E2",
-   "label": "Transporteurs indépendants (routiers, fluviaux, maritimes et aériens)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21E3",
-   "label": "Artisans coiffeurs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21E4",
-   "label": "Esthéticiens et autres artisans des soins corporels",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "21E5",
-   "label": "Artisans du nettoyage, de la récupération et des services divers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22A1",
-   "label": "Commerçants de produits alimentaires",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22B1",
-   "label": "Commerçants de biens pour le foyer",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22B2",
-   "label": "Commerçants de biens pour la personne",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22B3",
-   "label": "Buralistes, marchands de presse et autres commerçants d'articles divers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22C1",
-   "label": "Exploitants de cafés, de restaurants",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22C2",
-   "label": "Exploitants d’hôtels et d’autres hébergements",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22D1",
-   "label": "Agents généraux et courtiers d’assurance",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22D2",
-   "label": "Gérants d'agences immobilières",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22D3",
-   "label": "Agents commerciaux immobiliers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22D4",
-   "label": "Intermédiaires du commerce",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22D5",
-   "label": "Gestionnaires d’autres établissements de service",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "22D6",
-   "label": "Indépendants d’autres prestations de service",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "23A1",
-   "label": "Chefs d’entreprise de 50 personnes et plus",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "23B1",
-   "label": "Chefs d’entreprise du BTP, de 11 à 49 personnes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "23B2",
-   "label": "Chefs d’entreprise de l’agriculture, de l’industrie et des transports, de 11 à 49 personnes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "23B3",
-   "label": "Chefs d’entreprise du commerce, de 11 à 49 personnes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "23B4",
-   "label": "Chefs d’entreprise de services, de 11 à 49 personnes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31A1",
-   "label": "Médecins libéraux spécialistes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31A2",
-   "label": "Médecins libéraux généralistes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31A3",
-   "label": "Chirurgiens-dentistes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31A4",
-   "label": "Psychologues, psychanalystes, psychothérapeutes (non médecins)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31A5",
-   "label": "Vétérinaires",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31A6",
-   "label": "Pharmaciens libéraux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31B1",
-   "label": "Avocats",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31B2",
-   "label": "Notaires",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31B3",
-   "label": "Experts comptables, comptables agréés libéraux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31B4",
-   "label": "Experts libéraux des services administratifs et financiers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31B5",
-   "label": "Experts libéraux en études techniques",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31B6",
-   "label": "Architectes libéraux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "31B7",
-   "label": "Autres professions libérales judiciaires et techniques",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "33A1",
-   "label": "Cadres de direction de la fonction publique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "33A2",
-   "label": "Magistrats",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "33B1",
-   "label": "Ingénieurs et cadres techniques de la fonction publique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "33C1",
-   "label": "Cadres administratifs de l’État",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "33C2",
-   "label": "Cadres administratifs des collectivités territoriales et des hôpitaux publics",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "33D1",
-   "label": "Officiers des Armées et de la Gendarmerie (sauf grades de colonels, généraux et équivalents)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "33E1",
-   "label": "Responsables politiques et syndicaux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "34A1",
-   "label": "Enseignants titulaires du secondaire général et technologique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "34A2",
-   "label": "Chefs d'établissement de l'enseignement secondaire, inspecteurs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "34A3",
-   "label": "Psychologues et conseillers de l'orientation scolaire et professionnelle",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "34B1",
-   "label": "Enseignants du supérieur",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "34B2",
-   "label": "Chercheurs de la recherche publique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "34C1",
-   "label": "Médecins salariés hospitaliers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "34C2",
-   "label": "Médecins salariés non hospitaliers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "34C3",
-   "label": "Internes en médecine, odontologie et pharmacie",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "34C4",
-   "label": "Pharmaciens salariés",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "35A1",
-   "label": "Documentalistes, bibliothécaires de la fonction publique et autres cadres du patrimoine",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "35B1",
-   "label": "Journalistes et professions assimilées",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "35B2",
-   "label": "Auteurs littéraires, scénaristes, dialoguistes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "35C1",
-   "label": "Cadres de la presse, de l'édition, responsables de la production et de la programmation audiovisuelle et des spectacles",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "35C2",
-   "label": "Cadres artistiques et technico-artistiques des arts graphiques, du design, de la réalisation audiovisuelle et des spectacles",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "35D1",
-   "label": "Artistes plasticiens",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "35D2",
-   "label": "Artistes de la musique et du chant",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "35D3",
-   "label": "Artistes du théâtre, de la danse et des spectacles divers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "35D4",
-   "label": "Professeurs d'art (hors établissement scolaire) et directeurs d'établissements d'enseignement artistique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37A1",
-   "label": "Cadres dirigeants des entreprises (fonctions administratives, financières et commerciales)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37B1",
-   "label": "Chargés d’études socio-économiques et experts du traitement des données",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37B2",
-   "label": "Cadres de l’organisation, du contrôle des services administratifs et financiers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37B3",
-   "label": "Cadres spécialistes des ressources humaines et du recrutement",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37B4",
-   "label": "Cadres spécialistes de la formation et de la documentation",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37B5",
-   "label": "Juristes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37C1",
-   "label": "Cadres généralistes des services financiers et comptables",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37C2",
-   "label": "Cadres généralistes des services administratifs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37D1",
-   "label": "Directeurs de magasins et cadres de l’exploitation du commerce de détail",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37D2",
-   "label": "Acheteurs du commerce",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37D3",
-   "label": "Cadres commerciaux (hors banque et assurance)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37D4",
-   "label": "Chefs de produits et autres cadres du marketing",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37D5",
-   "label": "Cadres de la communication, de la publicité et des relations publiques",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37E1",
-   "label": "Directeurs d'agences de la banque et des assurances",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37E2",
-   "label": "Cadres commerciaux de la banque et des assurances",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37E3",
-   "label": "Cadres techniques de la banque, des assurances et des organismes de sécurité sociale",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37E4",
-   "label": "Cadres de l'immobilier",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "37F1",
-   "label": "Cadres de l'hôtellerie et de la restauration",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38A1",
-   "label": "Cadres dirigeants techniques des entreprises",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38B1",
-   "label": "Ingénieurs et cadres techniques de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38C1",
-   "label": "Ingénieurs et cadres d'études du BTP",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38C2",
-   "label": "Architectes salariés",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38C3",
-   "label": "Ingénieurs et cadres de chantier du BTP",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38D1",
-   "label": "Ingénieurs et cadres d’études, recherche et développement de l’industrie",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38D2",
-   "label": "Ingénieurs et cadres de production",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38E1",
-   "label": "Ingénieurs et cadres techniques de l’exploitation des transports",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38E2",
-   "label": "Officiers et cadres navigants de l’aviation civile et de la marine marchande",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38F1",
-   "label": "Acheteurs et cadres des achats du BTP et de l’industrie",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38F2",
-   "label": "Ingénieurs et cadres de la logistique, de l’ordonnancement-planification et des méthodes de production",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38F3",
-   "label": "Ingénieurs et cadres du contrôle-qualité et de la prévention des risques",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38F4",
-   "label": "Ingénieurs et cadres d'installation et de maintenance (hors informatique)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38F5",
-   "label": "Ingénieurs commerciaux et cadres technico-commerciaux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38G1",
-   "label": "Chefs de projet, responsables informatiques et du conseil informatique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38G2",
-   "label": "Ingénieurs et cadres d’études, de recherche et développement informatique et de production des données",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "38G3",
-   "label": "Ingénieurs et cadres d'exploitation informatique (réseaux, systèmes, sécurité et support)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "42A1",
-   "label": "Enseignants titulaires du primaire",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "42A2",
-   "label": "Enseignants titulaires du secondaire professionnel",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "42A3",
-   "label": "Enseignants non titulaires du primaire et du secondaire",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "42A4",
-   "label": "Professeurs de soutien scolaire",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "42B1",
-   "label": "Conseillers principaux d'éducation",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "42B2",
-   "label": "Surveillants scolaires et assistants d’éducation",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "42C1",
-   "label": "Moniteurs d'écoles de conduite",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "42C2",
-   "label": "Formateurs, bibliothécaires et documentalistes (non cadres)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "42C3",
-   "label": "Éducateurs sportifs, sportifs professionnels",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43A1",
-   "label": "Cadres de santé",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43A2",
-   "label": "Sages-femmes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43A3",
-   "label": "Infirmiers libéraux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43A4",
-   "label": "Infirmiers spécialisés salariés",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43A5",
-   "label": "Infirmiers en soins généraux salariés",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43B1",
-   "label": "Masseurs-kinésithérapeutes rééducateurs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43B2",
-   "label": "Spécialistes de la rééducation de la motricité, du langage et de la vue",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43C1",
-   "label": "Techniciens médicaux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43C2",
-   "label": "Opticiens, prothésistes et autres spécialistes de l'appareillage médical",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43C3",
-   "label": "Préparateurs en pharmacie",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43D1",
-   "label": "Directeurs et cadres du travail social et de l'animation socio-culturelle",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43D2",
-   "label": "Assistants de service social, conseillers en économie sociale et familiale",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43D3",
-   "label": "Éducateurs spécialisés",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43D4",
-   "label": "Moniteurs éducateurs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43D5",
-   "label": "Éducateurs techniques spécialisés, moniteurs d’ateliers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43D6",
-   "label": "Éducateurs de jeunes enfants",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "43D7",
-   "label": "Animateurs socio-culturels et de loisirs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "44A1",
-   "label": "Ministres du culte et religieux consacrés",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "45A1",
-   "label": "Personnels intermédiaires administratifs de l'État",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "45A2",
-   "label": "Personnels intermédiaires administratifs des collectivités territoriales et des hôpitaux publics",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "45B1",
-   "label": "Personnels de commandement de la Police nationale et de l’administration pénitentiaire",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "45B2",
-   "label": "Sous-officiers supérieurs des Armées et de la Gendarmerie",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46A1",
-   "label": "Assistants, secrétaires de direction (non cadres)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46A2",
-   "label": "Maîtrise et techniciens des services comptables et du traitement des données",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46A3",
-   "label": "Maîtrise et techniciens des services juridiques et du personnel",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46A4",
-   "label": "Maîtrise et techniciens des autres services administratifs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46B1",
-   "label": "Responsables (non cadres) de magasins",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46B2",
-   "label": "Responsables (non cadres) d'un secteur ou d'un rayon dans un commerce de détail",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46B3",
-   "label": "Acheteurs (non cadres) et responsables des achats",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46B4",
-   "label": "Responsables (non cadres) du marketing et de l’animation commerciale des magasins",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46B5",
-   "label": "Autres professions intermédiaires des services commerciaux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46C1",
-   "label": "Représentants, technico-commerciaux de la vente de biens auprès de professionnels",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46C2",
-   "label": "Représentants, technico-commerciaux de la vente de services auprès des professionnels",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46C3",
-   "label": "Représentants, technico-commerciaux auprès des particuliers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46D1",
-   "label": "Chargés de clientèle de la banque et des assurances",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46D2",
-   "label": "Techniciens de la banque, des assurances et des organismes de sécurité sociale",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46E1",
-   "label": "Assistants de la communication, de la publicité et des relations publiques",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46E2",
-   "label": "Graphistes et autres professions intermédiaires des arts graphiques, de la mode et de la décoration",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46E3",
-   "label": "Photographes et assistants techniques de la réalisation des spectacles vivants et audiovisuels",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46F1",
-   "label": "Responsables (non cadres) des services administratifs et commerciaux des transports et du tourisme",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46F2",
-   "label": "Responsables (non cadres) d'exploitation des transports",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "46G1",
-   "label": "Responsables (non cadres) de la gestion et des services de l'hôtellerie-restauration",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47A1",
-   "label": "Techniciens de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47B1",
-   "label": "Techniciens d’études du BTP",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47B2",
-   "label": "Techniciens de chantier du BTP",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47C1",
-   "label": "Dessinateurs industriels",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47C2",
-   "label": "Techniciens de recherche et développement de l’industrie",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47C3",
-   "label": "Techniciens de fabrication industrielle",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47D1",
-   "label": "Techniciens de la logistique, de l'ordonnancement-planification et des méthodes de production",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47D2",
-   "label": "Techniciens du contrôle-qualité et de la prévention des risques",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47D3",
-   "label": "Techniciens d’installation et de maintenance (hors informatique)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47E1",
-   "label": "Techniciens d’études, de recherche et développement informatique et de production des données",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47E2",
-   "label": "Techniciens d'exploitation informatique (réseaux, systèmes, sécurité et support)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "47F1",
-   "label": "Techniciens des laboratoires de recherche publique et de l’enseignement",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "48A1",
-   "label": "Agents de maîtrise de l’agriculture, des travaux forestiers et de la pêche",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "48B1",
-   "label": "Conducteurs de travaux (non cadres), chefs de chantier",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "48C1",
-   "label": "Agents de maîtrise en fabrication industrielle",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "48C2",
-   "label": "Agents de maîtrise et techniciens en production et distribution d'énergie et d'eau",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "48D1",
-   "label": "Agents de maîtrise en installation et maintenance (hors informatique)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "48E1",
-   "label": "Responsables (non cadres) d’entrepôt, de magasinage et de manutention",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "48F1",
-   "label": "Chefs de cuisine et responsables de production en restauration",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52A1",
-   "label": "Agents d'accueil et de guichet des administrations publiques",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52A2",
-   "label": "Employés de la fonction publique (secrétariat, gestion, comptabilité)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52A3",
-   "label": "Employés administratifs de la fonction publique à technicité spécifique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52A4",
-   "label": "Facteurs et employés du service universel du courrier",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52B1",
-   "label": "Agents de service de nettoyage (État, collectivités territoriales)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52B2",
-   "label": "Agents de service de surveillance et de restauration (État, collectivités territoriales)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52B3",
-   "label": "Agents de service des établissements de santé",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52C1",
-   "label": "Aides-soignants",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52C2",
-   "label": "Assistants de professions médicales et paramédicales",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52C3",
-   "label": "Auxiliaires de puériculture",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52C4",
-   "label": "Agents spécialisés de crèche et des écoles maternelles",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52C5",
-   "label": "Aides médico-psychologiques et professions assimilées",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "52C6",
-   "label": "Ambulanciers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "53A1",
-   "label": "Personnels d’encadrement et d’application de la Police nationale",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "53A2",
-   "label": "Agents des polices municipales",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "53A3",
-   "label": "Personnels d’encadrement et d’application de l’administration pénitentiaire",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "53B1",
-   "label": "Gendarmes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "53B2",
-   "label": "Sous-officiers subalternes des Armées",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "53B3",
-   "label": "Militaires du rang",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "53C1",
-   "label": "Pompiers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "53D1",
-   "label": "Agents de sécurité et surveillance privées",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "54A1",
-   "label": "Hôtes d'accueil et standardistes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "54A2",
-   "label": "Secrétaires, employés de la bureautique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "54A3",
-   "label": "Employés des services comptables et financiers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "54B1",
-   "label": "Employés commerciaux de la banque et des assurances",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "54B2",
-   "label": "Employés techniques de la banque, des assurances et des organismes de sécurité sociale",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "54C1",
-   "label": "Contrôleurs et agents d'accompagnement des transports et du tourisme",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "54C2",
-   "label": "Employés des services commerciaux des transports de voyageurs et du tourisme",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "54C3",
-   "label": "Employés administratifs d'exploitation des transports de marchandises et de la logistique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "54D1",
-   "label": "Employés administratifs des services commerciaux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "54D2",
-   "label": "Employés des autres services administratifs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "55A1",
-   "label": "Vendeurs en produits alimentaires",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "55B1",
-   "label": "Vendeurs de biens pour le foyer",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "55B2",
-   "label": "Vendeurs en produits de beauté, culturels et de loisirs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "55B3",
-   "label": "Vendeurs en habillement et articles de sport",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "55B4",
-   "label": "Autres vendeurs spécialisés (carburant, tabac, presse)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "55C1",
-   "label": "Vendeurs non spécialisés",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "55D1",
-   "label": "Caissiers du commerce",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "55D2",
-   "label": "Employés de libre-service du commerce",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "55E1",
-   "label": "Télévendeurs, téléconseillers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56A1",
-   "label": "Serveurs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56A2",
-   "label": "Employés polyvalents de la restauration, aides de cuisine",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56A3",
-   "label": "Employés d'accueil et de réception de l'hôtellerie",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56A4",
-   "label": "Employés d'étage, employés polyvalents de l'hôtellerie",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56B1",
-   "label": "Coiffeurs",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56B2",
-   "label": "Esthéticiens et autres employés des soins corporels",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56C1",
-   "label": "Assistants familiaux, familles d'accueil",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56C2",
-   "label": "Assistants maternels agréés",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56C3",
-   "label": "Autres salariés de particuliers pour la garde d’enfants",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56D1",
-   "label": "Auxiliaires de vie sociale",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56D2",
-   "label": "Autres employés d’aide à domicile et accueillants familiaux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56E1",
-   "label": "Employés de maison et personnels de ménage chez des particuliers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56E2",
-   "label": "Concierges et gardiens d'immeuble d'habitation",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "56F1",
-   "label": "Autres employés des services aux particuliers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62A1",
-   "label": "Conducteurs d’engins de chantier des travaux publics",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62A2",
-   "label": "Autres ouvriers qualifiés des travaux publics et des industries extractives",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62B1",
-   "label": "Câbleurs en électricité et électronique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62B2",
-   "label": "Mécaniciens monteurs, ajusteurs qualifiés",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62B3",
-   "label": "Ouvriers qualifiés d’usinage des métaux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62B4",
-   "label": "Ouvriers qualifiés du traçage, découpage, formage et soudage des métaux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62C1",
-   "label": "Ouvriers qualifiés de l’agroalimentaire",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62C2",
-   "label": "Ouvriers qualifiés de la métallurgie, de la production verrière et des matériaux de construction",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62C3",
-   "label": "Ouvriers qualifiés de la chimie, de la plasturgie et des matériaux composites",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62C4",
-   "label": "Ouvriers qualifiés de l’eau, de l’énergie et du traitement des déchets",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62D1",
-   "label": "Ouvriers qualifiés du textile, de l’habillement et du cuir",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62D2",
-   "label": "Ouvriers qualifiés du bois et de la fabrication de papier-carton",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62D3",
-   "label": "Ouvriers qualifiés de la composition, de l’impression et du façonnage du papier-carton",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62E1",
-   "label": "Conducteurs qualifiés de lignes de production",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62E2",
-   "label": "Régleurs qualifiés d’équipements de fabrication",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62E3",
-   "label": "Ouvriers qualifiés des traitements thermiques et de surface",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62E4",
-   "label": "Ouvriers qualifiés de contrôle et d’essais et de laboratoire (hors santé, hors imprimerie)",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "62E5",
-   "label": "Ouvriers qualifiés de maintenance et d’entretien des équipements industriels",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63A1",
-   "label": "Ouvriers des parcs et jardins",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63B1",
-   "label": "Maçons et ouvriers qualifiés du travail de la pierre",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63B2",
-   "label": "Charpentiers et couvreurs qualifiés",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63B3",
-   "label": "Menuisiers qualifiés du bâtiment",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63B4",
-   "label": "Plombiers, chauffagistes qualifiés",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63B5",
-   "label": "Électriciens qualifiés du bâtiment",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63B6",
-   "label": "Peintres et ouvriers qualifiés de la finition du bâtiment",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63B7",
-   "label": "Ouvriers qualifiés d'entretien général des bâtiments",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63C1",
-   "label": "Carrossiers qualifiés d’automobiles",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63C2",
-   "label": "Réparateurs qualifiés de véhicules et de biens d’équipement du foyer",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63C3",
-   "label": "Métalliers, ébénistes et autres ouvriers qualifiés du travail des métaux et du bois",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63C4",
-   "label": "Couturiers et ouvriers qualifiés des autres fabrications",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63D1",
-   "label": "Bouchers, charcutiers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63D2",
-   "label": "Boulangers, pâtissiers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63E1",
-   "label": "Cuisiniers et ouvriers qualifiés de la restauration",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "63F1",
-   "label": "Ouvriers d’arts, ouvriers et techniciens des spectacles",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "64A1",
-   "label": "Conducteurs routiers de transport en commun",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "64A2",
-   "label": "Conducteurs salariés de taxi et d'autres véhicules de transport individuel",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "64B1",
-   "label": "Conducteurs de poids lourds",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "64B2",
-   "label": "Chauffeurs-livreurs, conducteurs de la collecte de déchets",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "64B3",
-   "label": "Coursiers, livreurs, distributeurs à domicile",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "65A1",
-   "label": "Dockers et conducteurs d’engins lourds de manœuvre et de levage",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "65B1",
-   "label": "Caristes",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "65C1",
-   "label": "Magasiniers et ouvriers assimilés de la logistique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "65D1",
-   "label": "Conducteurs de trains, matelots de la marine marchande",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "65D2",
-   "label": "Ouvriers qualifiés sédentaires d'exploitation des transports",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67A1",
-   "label": "Ouvriers peu qualifiés des travaux publics et des industries extractives",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67B1",
-   "label": "Ouvriers peu qualifiés de l'électricité et de l'électronique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67B2",
-   "label": "Ouvriers peu qualifiés de montage et contrôle en mécanique",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67B3",
-   "label": "Ouvriers peu qualifiés du travail des métaux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67C1",
-   "label": "Ouvriers peu qualifiés de l’agroalimentaire",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67C2",
-   "label": "Ouvriers peu qualifiés de la métallurgie, de la production verrière et des matériaux de construction",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67C3",
-   "label": "Ouvriers peu qualifiés de la chimie, de la plasturgie et des matériaux composites",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67D1",
-   "label": "Ouvriers peu qualifiés du textile, de l’habillement et du cuir",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67D2",
-   "label": "Ouvriers peu qualifiés du bois, de la fabrication de papier-carton et de l’impression",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67E1",
-   "label": "Ouvriers peu qualifiés de la réception et de l'expédition",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67E2",
-   "label": "Manutentionnaires peu qualifiés et professions assimilées",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "67E3",
-   "label": "Agents peu qualifiés des services d'exploitation des transports",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "68A1",
-   "label": "Ouvriers peu qualifiés du gros œuvre du bâtiment",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "68A2",
-   "label": "Ouvriers peu qualifiés du second œuvre du bâtiment",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "68B1",
-   "label": "Ouvriers peu qualifiés de l’entretien et de la réparation de véhicules",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "68B2",
-   "label": "Ouvriers peu qualifiés du travail artisanal des matériaux",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "68C1",
-   "label": "Apprentis de l’artisanat alimentaire",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "68D1",
-   "label": "Ouvriers du nettoyage",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "68D2",
-   "label": "Ouvriers peu qualifiés de l’assainissement et du traitement des déchets",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "69A1",
-   "label": "Ouvriers agricoles de grandes cultures et de polyculture-élevage",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "69A2",
-   "label": "Ouvriers du maraîchage, de l’horticulture et des pépinières",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "69A3",
-   "label": "Ouvriers de la viticulture et de l’arboriculture fruitière",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "69A4",
-   "label": "Ouvriers de l’élevage",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "69B1",
-   "label": "Ouvriers forestiers",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "69C1",
-   "label": "Ouvriers de la pêche et de l’aquaculture",
-   "level": "D",
-   "short": ""
- },
- {
-   "id": "10A",
-   "label": "Exploitants agricoles",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "10B",
-   "label": "Entrepreneurs de travaux agricoles, ruraux et forestiers",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "10C",
-   "label": "Entrepreneurs de la pêche et de l’aquaculture",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "21A",
-   "label": "Entrepreneurs en parcs et jardins, paysagistes",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "21B",
-   "label": "Artisans du bâtiment et des travaux publics",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "21C",
-   "label": "Artisans de la réparation et du travail des matériaux",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "21D",
-   "label": "Artisans de l’alimentation",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "21E",
-   "label": "Artisans des services",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "22A",
-   "label": "Commerçants de produits alimentaires",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "22B",
-   "label": "Commerçants de produits non alimentaires",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "22C",
-   "label": "Exploitants de cafés, restaurants, hôtels",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "22D",
-   "label": "Intermédiaires et prestataires de services",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "23A",
-   "label": "Chefs d’entreprise de 50 personnes et plus",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "23B",
-   "label": "Chefs d’entreprise de 11 à 49 personnes",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "31A",
-   "label": "Professions libérales de santé",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "31B",
-   "label": "Professions libérales juridiques et techniques",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "33A",
-   "label": "Cadres de direction de la fonction publique, magistrats",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "33B",
-   "label": "Ingénieurs et cadres techniques de la fonction publique",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "33C",
-   "label": "Cadres administratifs de la fonction publique",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "33D",
-   "label": "Officiers des Armées et de la Gendarmerie (sauf grades de colonels, généraux et équivalents)",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "33E",
-   "label": "Responsables politiques et syndicaux",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "34A",
-   "label": "Professions de l’enseignement secondaire général et technologique",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "34B",
-   "label": "Professions de l’enseignement supérieur et de la recherche publique",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "34C",
-   "label": "Médecins et pharmaciens salariés",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "35A",
-   "label": "Cadres de la documentation et du patrimoine",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "35B",
-   "label": "Journalistes, auteurs",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "35C",
-   "label": "Cadres de la presse, de l'édition, de l'audiovisuel et des spectacles",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "35D",
-   "label": "Artistes",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "37A",
-   "label": "Cadres dirigeants des entreprises (fonctions administratives, financières et commerciales)",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "37B",
-   "label": "Cadres spécialistes des fonctions administratives et financières (hors banque, assurance, organismes de sécurité sociale)",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "37C",
-   "label": "Cadres généralistes des services administratifs et financiers",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "37D",
-   "label": "Cadres des services commerciaux et de la communication",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "37E",
-   "label": "Cadres des services techniques et commerciaux de la banque, de l’assurance, des organismes de sécurité sociale et de l’immobilier",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "37F",
-   "label": "Cadres de l'hôtellerie et de la restauration",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "38A",
-   "label": "Cadres dirigeants techniques des entreprises",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "38B",
-   "label": "Ingénieurs et cadres techniques de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "38C",
-   "label": "Ingénieurs et cadres techniques du BTP",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "38D",
-   "label": "Ingénieurs et cadres techniques de l’industrie",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "38E",
-   "label": "Ingénieurs et cadres techniques des transports (hors logistique)",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "38F",
-   "label": "Ingénieurs et cadres techniques des fonctions connexes de la production",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "38G",
-   "label": "Ingénieurs et cadres techniques de l’informatique",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "42A",
-   "label": "Enseignants du primaire et du secondaire professionnel, enseignants non titulaires",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "42B",
-   "label": "Personnels d’éducation et de surveillance des élèves",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "42C",
-   "label": "Professions de la formation, de la documentation et du sport",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "43A",
-   "label": "Infirmiers, sage-femmes et cadres de santé",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "43B",
-   "label": "Spécialistes de la rééducation",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "43C",
-   "label": "Techniciens médicaux, professions de l’appareillage médical et de la pharmacie",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "43D",
-   "label": "Travailleurs sociaux et socio-culturels",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "44A",
-   "label": "Ministres du culte et religieux consacrés",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "45A",
-   "label": "Personnels intermédiaires administratifs de la fonction publique",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "45B",
-   "label": "Personnels intermédiaires de la Police, des Armées et de la Gendarmerie",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "46A",
-   "label": "Professions intermédiaires des services administratifs d’entreprise",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "46B",
-   "label": "Responsables (non cadres) des magasins de vente et des services commerciaux",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "46C",
-   "label": "Représentants et technico-commerciaux",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "46D",
-   "label": "Chargés de clientèle et techniciens de la banque, des assurances et des organismes de sécurité sociale",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "46E",
-   "label": "Assistants et techniciens de la création artistique et de la communication",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "46F",
-   "label": "Responsables (non cadres) des transports et du tourisme",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "46G",
-   "label": "Responsables (non cadres) de la gestion et des services de l'hôtellerie-restauration",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "47A",
-   "label": "Techniciens de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "47B",
-   "label": "Techniciens du BTP",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "47C",
-   "label": "Techniciens de l’industrie",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "47D",
-   "label": "Techniciens des fonctions connexes de la production",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "47E",
-   "label": "Techniciens de l’informatique",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "47F",
-   "label": "Techniciens des laboratoires de recherche publique et de l’enseignement",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "48A",
-   "label": "Agents de maîtrise de l’agriculture, des travaux forestiers et de la pêche",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "48B",
-   "label": "Agents de maîtrise du BTP",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "48C",
-   "label": "Agents de maîtrise de l’industrie",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "48D",
-   "label": "Agents de maîtrise en installation et maintenance (hors informatique)",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "48E",
-   "label": "Responsables (non cadres) d’entrepôt, de magasinage et de manutention",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "48F",
-   "label": "Chefs de cuisine et responsables de production en restauration",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "52A",
-   "label": "Employés administratifs de la fonction publique",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "52B",
-   "label": "Agents de service de la fonction publique et de la santé",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "52C",
-   "label": "Aides-soignants, employés d’accueil de la petite enfance et professions assimilées",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "53A",
-   "label": "Agents de police et de surveillance pénitentiaire",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "53B",
-   "label": "Sous-officiers subalternes et militaires du rang des Armées et de la Gendarmerie",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "53C",
-   "label": "Agents de sécurité civile",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "53D",
-   "label": "Agents de sécurité et surveillance privées",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "54A",
-   "label": "Employés de l’accueil, du secrétariat et de la comptabilité",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "54B",
-   "label": "Employés de la banque, des assurances et des organismes de sécurité sociale",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "54C",
-   "label": "Employés du transport et du tourisme",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "54D",
-   "label": "Autres employés administratifs d'entreprise",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "55A",
-   "label": "Vendeurs en produits alimentaires",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "55B",
-   "label": "Vendeurs en produits non alimentaires",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "55C",
-   "label": "Vendeurs non spécialisés",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "55D",
-   "label": "Caissiers, employés de libre-service",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "55E",
-   "label": "Télévendeurs, téléconseillers",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "56A",
-   "label": "Employés de cafés, restaurants et hôtels",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "56B",
-   "label": "Employés des soins corporels",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "56C",
-   "label": "Assistants maternels, gardes d'enfants, assistants familiaux",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "56D",
-   "label": "Aides au maintien à domicile des personnes fragiles",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "56E",
-   "label": "Aides domestiques, concierges",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "56F",
-   "label": "Autres employés des services aux particuliers",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "62A",
-   "label": "Ouvriers qualifiés des travaux publics et des industries extractives",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "62B",
-   "label": "Ouvriers qualifiés de l’électricité, de l’électronique, de la mécanique et du travail des métaux",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "62C",
-   "label": "Ouvriers qualifiés de l’agroalimentaire, de la métallurgie, de la chimie, de la production des matériaux, de l’eau et de l’énergie",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "62D",
-   "label": "Ouvriers qualifiés du travail des matériaux souples et des autres industries",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "62E",
-   "label": "Ouvriers qualifiés des fonctions transverses de l’industrie",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "63A",
-   "label": "Ouvriers des parcs et jardins",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "63B",
-   "label": "Ouvriers qualifiés du bâtiment",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "63C",
-   "label": "Ouvriers qualifiés de la réparation et du travail artisanal des matériaux",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "63D",
-   "label": "Ouvriers qualifiés de l’artisanat alimentaire",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "63E",
-   "label": "Ouvriers qualifiés de la restauration",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "63F",
-   "label": "Ouvriers qualifiés de l’art et des spectacles",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "64A",
-   "label": "Conducteurs de véhicules de transport de personnes",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "64B",
-   "label": "Conducteurs de véhicules de transport de marchandises, livreurs",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "65A",
-   "label": "Dockers et conducteurs d’engins lourds de manœuvre et de levage",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "65B",
-   "label": "Caristes",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "65C",
-   "label": "Magasiniers et ouvriers assimilés de la logistique",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "65D",
-   "label": "Ouvriers qualifiés du transport non routier",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "67A",
-   "label": "Ouvriers peu qualifiés des travaux publics et des industries extractives",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "67B",
-   "label": "Ouvriers peu qualifiés de l'électricité, de l'électronique, de la mécanique et du travail des métaux",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "67C",
-   "label": "Ouvriers peu qualifiés de l’agroalimentaire, de la métallurgie, de la chimie et de la production des matériaux",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "67D",
-   "label": "Ouvriers peu qualifiés du travail des matériaux souples et des autres industries",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "67E",
-   "label": "Ouvriers peu qualifiés du transport et de la logistique",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "68A",
-   "label": "Ouvriers peu qualifiés du bâtiment",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "68B",
-   "label": "Ouvriers peu qualifiés de la réparation de véhicules et du travail artisanal des matériaux",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "68C",
-   "label": "Apprentis de l’artisanat alimentaire",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "68D",
-   "label": "Ouvriers peu qualifiés du nettoyage, de l’assainissement et du traitement des déchets",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "69A",
-   "label": "Ouvriers agricoles",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "69B",
-   "label": "Ouvriers forestiers",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "69C",
-   "label": "Ouvriers de la pêche et de l’aquaculture",
-   "level": "C",
-   "short": ""
- },
- {
-   "id": "10",
-   "label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture",
-   "level": "B",
-   "short": "Agriculteurs"
- },
- {
-   "id": "21",
-   "label": "Artisans",
-   "level": "B",
-   "short": "Artisans"
- },
- {
-   "id": "22",
-   "label": "Commerçants et assimilés",
-   "level": "B",
-   "short": "Commerçants et assimilés"
- },
- {
-   "id": "23",
-   "label": "Chefs d’entreprise de plus de 10 personnes",
-   "level": "B",
-   "short": "Chefs d’entreprise de plus de 10 personnes"
- },
- {
-   "id": "31",
-   "label": "Professions libérales",
-   "level": "B",
-   "short": "Professions libérales"
- },
- {
-   "id": "33",
-   "label": "Cadres administratifs et techniques de la fonction publique",
-   "level": "B",
-   "short": "Cadres de la fonction publique"
- },
- {
-   "id": "34",
-   "label": "Professeurs et professions scientifiques supérieures",
-   "level": "B",
-   "short": "Professeurs et professions scientifiques"
- },
- {
-   "id": "35",
-   "label": "Professions de l’information, de l’art et des spectacles",
-   "level": "B",
-   "short": "Professions de l’information, de l’art et des spectacles"
- },
- {
-   "id": "37",
-   "label": "Cadres des services administratifs et commerciaux d’entreprise",
-   "level": "B",
-   "short": "Cadres administratifs et commerciaux"
- },
- {
-   "id": "38",
-   "label": "Ingénieurs et cadres techniques d’entreprise",
-   "level": "B",
-   "short": "Cadres techniques d’entreprise"
- },
- {
-   "id": "42",
-   "label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport",
-   "level": "B",
-   "short": "Professions de l’enseignement primaire et professionnel"
- },
- {
-   "id": "43",
-   "label": "Professions intermédiaires de la santé et du travail social",
-   "level": "B",
-   "short": "Intermédiaires de la santé et du travail social"
- },
- {
-   "id": "44",
-   "label": "Ministres du culte et religieux consacrés",
-   "level": "B",
-   "short": "Religieux"
- },
- {
-   "id": "45",
-   "label": "Professions intermédiaires de la fonction publique (administration, sécurité)",
-   "level": "B",
-   "short": "Intermédiaires de la fonction publique"
- },
- {
-   "id": "46",
-   "label": "Professions intermédiaires administratives et commerciales des entreprises",
-   "level": "B",
-   "short": "Intermédiaires des entreprises"
- },
- {
-   "id": "47",
-   "label": "Techniciens",
-   "level": "B",
-   "short": "Techniciens"
- },
- {
-   "id": "48",
-   "label": "Agents de maîtrise (hors maîtrise administrative)",
-   "level": "B",
-   "short": "Agents de maîtrise de production"
- },
- {
-   "id": "52",
-   "label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé",
-   "level": "B",
-   "short": "Employés de la fonction publique"
- },
- {
-   "id": "53",
-   "label": "Policiers, militaires, pompiers, agents de sécurité privée",
-   "level": "B",
-   "short": "Policiers, militaires et agents de sécurité privée"
- },
- {
-   "id": "54",
-   "label": "Employés administratifs d'entreprise",
-   "level": "B",
-   "short": "Employés administratifs d'entreprise"
- },
- {
-   "id": "55",
-   "label": "Employés de commerce",
-   "level": "B",
-   "short": "Employés de commerce"
- },
- {
-   "id": "56",
-   "label": "Personnels des services directs aux particuliers",
-   "level": "B",
-   "short": "Personnels des services aux particuliers"
- },
- {
-   "id": "62",
-   "label": "Ouvriers qualifiés de type industriel",
-   "level": "B",
-   "short": "Ouvriers qualifiés de type industriel"
- },
- {
-   "id": "63",
-   "label": "Ouvriers qualifiés de type artisanal",
-   "level": "B",
-   "short": "Ouvriers qualifiés de type artisanal"
- },
- {
-   "id": "64",
-   "label": "Conducteurs de véhicules de transport, chauffeurs-livreurs, coursiers",
-   "level": "B",
-   "short": "Conducteurs du transport"
- },
- {
-   "id": "65",
-   "label": "Conducteurs d’engins, caristes, magasiniers et ouvriers du transport (non routier)",
-   "level": "B",
-   "short": "Conducteurs d’engins et magasiniers"
- },
- {
-   "id": "67",
-   "label": "Ouvriers peu qualifiés de type industriel",
-   "level": "B",
-   "short": "Ouvriers peu qualifiés de type industriel"
- },
- {
-   "id": "68",
-   "label": "Ouvriers peu qualifiés de type artisanal",
-   "level": "B",
-   "short": "Ouvriers peu qualifiés de type artisanal"
- },
- {
-   "id": "69",
-   "label": "Ouvriers agricoles, des travaux forestiers, de la pêche et de l’aquaculture",
-   "level": "B",
-   "short": "Ouvriers agricoles"
- },
- {
-   "id": "1",
-   "label": "Agriculteurs exploitants",
-   "level": "A",
-   "short": "Agriculteurs"
- },
- {
-   "id": "2",
-   "label": "Artisans, commerçants et chefs d’entreprise",
-   "level": "A",
-   "short": "Artisans, commerçants et chefs d’entreprise"
- },
- {
-   "id": "3",
-   "label": "Cadres et professions intellectuelles supérieures",
-   "level": "A",
-   "short": "Cadres"
- },
- {
-   "id": "4",
-   "label": "Professions intermédiaires",
-   "level": "A",
-   "short": "Professions intermédiaires"
- },
- {
-   "id": "5",
-   "label": "Employés",
-   "level": "A",
-   "short": "Employés"
- },
- {
-   "id": "6",
-   "label": "Ouvriers",
-   "level": "A",
-   "short": "Ouvriers"
- }
+  {
+    "id": "10A1",
+    "label": "Exploitants agricoles en grandes cultures",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "10A2",
+    "label": "Maraîchers, horticulteurs et pépiniéristes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "10A3",
+    "label": "Viticulteurs, arboriculteurs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "10A4",
+    "label": "Éleveurs de bovins",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "10A5",
+    "label": "Éleveurs de moutons, chèvres, chevaux et autres herbivores",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "10A6",
+    "label": "Éleveurs de volailles et de porcs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "10A7",
+    "label": "Autres exploitants agricoles",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "10B1",
+    "label": "Entrepreneurs de travaux agricoles, ruraux et forestiers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "10C1",
+    "label": "Entrepreneurs de la pêche et de l’aquaculture",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21A1",
+    "label": "Entrepreneurs en parcs et jardins, paysagistes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21B1",
+    "label": "Artisans maçons",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21B2",
+    "label": "Artisans charpentiers, couvreurs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21B3",
+    "label": "Artisans menuisiers du bâtiment",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21B4",
+    "label": "Artisans plombiers, chauffagistes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21B5",
+    "label": "Artisans électriciens du bâtiment",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21B6",
+    "label": "Artisans de la peinture et des finitions du bâtiment",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21B7",
+    "label": "Artisans tout corps de métier du bâtiment et artisans des travaux publics",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21C1",
+    "label": "Garagistes et autres artisans réparateurs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21C2",
+    "label": "Artisans du travail des métaux et du bois",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21C3",
+    "label": "Artisans de la couture et des autres fabrications",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21C4",
+    "label": "Artisans d’art",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21D1",
+    "label": "Artisans bouchers, charcutiers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21D2",
+    "label": "Artisans boulangers, pâtissiers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21E1",
+    "label": "Conducteurs de taxis, d'ambulances et autres entrepreneurs du transport individuel",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21E2",
+    "label": "Transporteurs indépendants (routiers, fluviaux, maritimes et aériens)",
+    "tags": ["camioneur", "chauffeur"],
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21E3",
+    "label": "Artisans coiffeurs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21E4",
+    "label": "Esthéticiens et autres artisans des soins corporels",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "21E5",
+    "label": "Artisans du nettoyage, de la récupération et des services divers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22A1",
+    "label": "Commerçants de produits alimentaires",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22B1",
+    "label": "Commerçants de biens pour le foyer",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22B2",
+    "label": "Commerçants de biens pour la personne",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22B3",
+    "label": "Buralistes, marchands de presse et autres commerçants d'articles divers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22C1",
+    "label": "Exploitants de cafés, de restaurants",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22C2",
+    "label": "Exploitants d’hôtels et d’autres hébergements",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22D1",
+    "label": "Agents généraux et courtiers d’assurance",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22D2",
+    "label": "Gérants d'agences immobilières",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22D3",
+    "label": "Agents commerciaux immobiliers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22D4",
+    "label": "Intermédiaires du commerce",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22D5",
+    "label": "Gestionnaires d’autres établissements de service",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "22D6",
+    "label": "Indépendants d’autres prestations de service",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "23A1",
+    "label": "Chefs d’entreprise de 50 personnes et plus",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "23B1",
+    "label": "Chefs d’entreprise du BTP, de 11 à 49 personnes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "23B2",
+    "label": "Chefs d’entreprise de l’agriculture, de l’industrie et des transports, de 11 à 49 personnes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "23B3",
+    "label": "Chefs d’entreprise du commerce, de 11 à 49 personnes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "23B4",
+    "label": "Chefs d’entreprise de services, de 11 à 49 personnes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31A1",
+    "label": "Médecins libéraux spécialistes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31A2",
+    "label": "Médecins libéraux généralistes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31A3",
+    "label": "Chirurgiens-dentistes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31A4",
+    "label": "Psychologues, psychanalystes, psychothérapeutes (non médecins)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31A5",
+    "label": "Vétérinaires",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31A6",
+    "label": "Pharmaciens libéraux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31B1",
+    "label": "Avocats",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31B2",
+    "label": "Notaires",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31B3",
+    "label": "Experts comptables, comptables agréés libéraux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31B4",
+    "label": "Experts libéraux des services administratifs et financiers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31B5",
+    "label": "Experts libéraux en études techniques",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31B6",
+    "label": "Architectes libéraux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "31B7",
+    "label": "Autres professions libérales judiciaires et techniques",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "33A1",
+    "label": "Cadres de direction de la fonction publique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "33A2",
+    "label": "Magistrats",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "33B1",
+    "label": "Ingénieurs et cadres techniques de la fonction publique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "33C1",
+    "label": "Cadres administratifs de l’État",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "33C2",
+    "label": "Cadres administratifs des collectivités territoriales et des hôpitaux publics",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "33D1",
+    "label": "Officiers des Armées et de la Gendarmerie (sauf grades de colonels, généraux et équivalents)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "33E1",
+    "label": "Responsables politiques et syndicaux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "34A1",
+    "label": "Enseignants titulaires du secondaire général et technologique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "34A2",
+    "label": "Chefs d'établissement de l'enseignement secondaire, inspecteurs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "34A3",
+    "label": "Psychologues et conseillers de l'orientation scolaire et professionnelle",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "34B1",
+    "label": "Enseignants du supérieur",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "34B2",
+    "label": "Chercheurs de la recherche publique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "34C1",
+    "label": "Médecins salariés hospitaliers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "34C2",
+    "label": "Médecins salariés non hospitaliers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "34C3",
+    "label": "Internes en médecine, odontologie et pharmacie",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "34C4",
+    "label": "Pharmaciens salariés",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "35A1",
+    "label": "Documentalistes, bibliothécaires de la fonction publique et autres cadres du patrimoine",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "35B1",
+    "label": "Journalistes et professions assimilées",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "35B2",
+    "label": "Auteurs littéraires, scénaristes, dialoguistes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "35C1",
+    "label": "Cadres de la presse, de l'édition, responsables de la production et de la programmation audiovisuelle et des spectacles",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "35C2",
+    "label": "Cadres artistiques et technico-artistiques des arts graphiques, du design, de la réalisation audiovisuelle et des spectacles",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "35D1",
+    "label": "Artistes plasticiens",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "35D2",
+    "label": "Artistes de la musique et du chant",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "35D3",
+    "label": "Artistes du théâtre, de la danse et des spectacles divers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "35D4",
+    "label": "Professeurs d'art (hors établissement scolaire) et directeurs d'établissements d'enseignement artistique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37A1",
+    "label": "Cadres dirigeants des entreprises (fonctions administratives, financières et commerciales)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37B1",
+    "label": "Chargés d’études socio-économiques et experts du traitement des données",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37B2",
+    "label": "Cadres de l’organisation, du contrôle des services administratifs et financiers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37B3",
+    "label": "Cadres spécialistes des ressources humaines et du recrutement",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37B4",
+    "label": "Cadres spécialistes de la formation et de la documentation",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37B5",
+    "label": "Juristes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37C1",
+    "label": "Cadres généralistes des services financiers et comptables",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37C2",
+    "label": "Cadres généralistes des services administratifs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37D1",
+    "label": "Directeurs de magasins et cadres de l’exploitation du commerce de détail",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37D2",
+    "label": "Acheteurs du commerce",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37D3",
+    "label": "Cadres commerciaux (hors banque et assurance)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37D4",
+    "label": "Chefs de produits et autres cadres du marketing",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37D5",
+    "label": "Cadres de la communication, de la publicité et des relations publiques",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37E1",
+    "label": "Directeurs d'agences de la banque et des assurances",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37E2",
+    "label": "Cadres commerciaux de la banque et des assurances",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37E3",
+    "label": "Cadres techniques de la banque, des assurances et des organismes de sécurité sociale",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37E4",
+    "label": "Cadres de l'immobilier",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "37F1",
+    "label": "Cadres de l'hôtellerie et de la restauration",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38A1",
+    "label": "Cadres dirigeants techniques des entreprises",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38B1",
+    "label": "Ingénieurs et cadres techniques de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38C1",
+    "label": "Ingénieurs et cadres d'études du BTP",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38C2",
+    "label": "Architectes salariés",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38C3",
+    "label": "Ingénieurs et cadres de chantier du BTP",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38D1",
+    "label": "Ingénieurs et cadres d’études, recherche et développement de l’industrie",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38D2",
+    "label": "Ingénieurs et cadres de production",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38E1",
+    "label": "Ingénieurs et cadres techniques de l’exploitation des transports",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38E2",
+    "label": "Officiers et cadres navigants de l’aviation civile et de la marine marchande",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38F1",
+    "label": "Acheteurs et cadres des achats du BTP et de l’industrie",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38F2",
+    "label": "Ingénieurs et cadres de la logistique, de l’ordonnancement-planification et des méthodes de production",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38F3",
+    "label": "Ingénieurs et cadres du contrôle-qualité et de la prévention des risques",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38F4",
+    "label": "Ingénieurs et cadres d'installation et de maintenance (hors informatique)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38F5",
+    "label": "Ingénieurs commerciaux et cadres technico-commerciaux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38G1",
+    "label": "Chefs de projet, responsables informatiques et du conseil informatique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38G2",
+    "label": "Ingénieurs et cadres d’études, de recherche et développement informatique et de production des données",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "38G3",
+    "label": "Ingénieurs et cadres d'exploitation informatique (réseaux, systèmes, sécurité et support)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "42A1",
+    "label": "Enseignants titulaires du primaire",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "42A2",
+    "label": "Enseignants titulaires du secondaire professionnel",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "42A3",
+    "label": "Enseignants non titulaires du primaire et du secondaire",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "42A4",
+    "label": "Professeurs de soutien scolaire",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "42B1",
+    "label": "Conseillers principaux d'éducation",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "42B2",
+    "label": "Surveillants scolaires et assistants d’éducation",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "42C1",
+    "label": "Moniteurs d'écoles de conduite",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "42C2",
+    "label": "Formateurs, bibliothécaires et documentalistes (non cadres)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "42C3",
+    "label": "Éducateurs sportifs, sportifs professionnels",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43A1",
+    "label": "Cadres de santé",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43A2",
+    "label": "Sages-femmes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43A3",
+    "label": "Infirmiers libéraux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43A4",
+    "label": "Infirmiers spécialisés salariés",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43A5",
+    "label": "Infirmiers en soins généraux salariés",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43B1",
+    "label": "Masseurs-kinésithérapeutes rééducateurs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43B2",
+    "label": "Spécialistes de la rééducation de la motricité, du langage et de la vue",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43C1",
+    "label": "Techniciens médicaux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43C2",
+    "label": "Opticiens, prothésistes et autres spécialistes de l'appareillage médical",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43C3",
+    "label": "Préparateurs en pharmacie",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43D1",
+    "label": "Directeurs et cadres du travail social et de l'animation socio-culturelle",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43D2",
+    "label": "Assistants de service social, conseillers en économie sociale et familiale",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43D3",
+    "label": "Éducateurs spécialisés",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43D4",
+    "label": "Moniteurs éducateurs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43D5",
+    "label": "Éducateurs techniques spécialisés, moniteurs d’ateliers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43D6",
+    "label": "Éducateurs de jeunes enfants",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "43D7",
+    "label": "Animateurs socio-culturels et de loisirs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "44A1",
+    "label": "Ministres du culte et religieux consacrés",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "45A1",
+    "label": "Personnels intermédiaires administratifs de l'État",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "45A2",
+    "label": "Personnels intermédiaires administratifs des collectivités territoriales et des hôpitaux publics",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "45B1",
+    "label": "Personnels de commandement de la Police nationale et de l’administration pénitentiaire",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "45B2",
+    "label": "Sous-officiers supérieurs des Armées et de la Gendarmerie",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46A1",
+    "label": "Assistants, secrétaires de direction (non cadres)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46A2",
+    "label": "Maîtrise et techniciens des services comptables et du traitement des données",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46A3",
+    "label": "Maîtrise et techniciens des services juridiques et du personnel",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46A4",
+    "label": "Maîtrise et techniciens des autres services administratifs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46B1",
+    "label": "Responsables (non cadres) de magasins",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46B2",
+    "label": "Responsables (non cadres) d'un secteur ou d'un rayon dans un commerce de détail",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46B3",
+    "label": "Acheteurs (non cadres) et responsables des achats",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46B4",
+    "label": "Responsables (non cadres) du marketing et de l’animation commerciale des magasins",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46B5",
+    "label": "Autres professions intermédiaires des services commerciaux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46C1",
+    "label": "Représentants, technico-commerciaux de la vente de biens auprès de professionnels",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46C2",
+    "label": "Représentants, technico-commerciaux de la vente de services auprès des professionnels",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46C3",
+    "label": "Représentants, technico-commerciaux auprès des particuliers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46D1",
+    "label": "Chargés de clientèle de la banque et des assurances",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46D2",
+    "label": "Techniciens de la banque, des assurances et des organismes de sécurité sociale",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46E1",
+    "label": "Assistants de la communication, de la publicité et des relations publiques",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46E2",
+    "label": "Graphistes et autres professions intermédiaires des arts graphiques, de la mode et de la décoration",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46E3",
+    "label": "Photographes et assistants techniques de la réalisation des spectacles vivants et audiovisuels",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46F1",
+    "label": "Responsables (non cadres) des services administratifs et commerciaux des transports et du tourisme",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46F2",
+    "label": "Responsables (non cadres) d'exploitation des transports",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "46G1",
+    "label": "Responsables (non cadres) de la gestion et des services de l'hôtellerie-restauration",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47A1",
+    "label": "Techniciens de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47B1",
+    "label": "Techniciens d’études du BTP",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47B2",
+    "label": "Techniciens de chantier du BTP",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47C1",
+    "label": "Dessinateurs industriels",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47C2",
+    "label": "Techniciens de recherche et développement de l’industrie",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47C3",
+    "label": "Techniciens de fabrication industrielle",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47D1",
+    "label": "Techniciens de la logistique, de l'ordonnancement-planification et des méthodes de production",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47D2",
+    "label": "Techniciens du contrôle-qualité et de la prévention des risques",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47D3",
+    "label": "Techniciens d’installation et de maintenance (hors informatique)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47E1",
+    "label": "Techniciens d’études, de recherche et développement informatique et de production des données",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47E2",
+    "label": "Techniciens d'exploitation informatique (réseaux, systèmes, sécurité et support)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "47F1",
+    "label": "Techniciens des laboratoires de recherche publique et de l’enseignement",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "48A1",
+    "label": "Agents de maîtrise de l’agriculture, des travaux forestiers et de la pêche",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "48B1",
+    "label": "Conducteurs de travaux (non cadres), chefs de chantier",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "48C1",
+    "label": "Agents de maîtrise en fabrication industrielle",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "48C2",
+    "label": "Agents de maîtrise et techniciens en production et distribution d'énergie et d'eau",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "48D1",
+    "label": "Agents de maîtrise en installation et maintenance (hors informatique)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "48E1",
+    "label": "Responsables (non cadres) d’entrepôt, de magasinage et de manutention",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "48F1",
+    "label": "Chefs de cuisine et responsables de production en restauration",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52A1",
+    "label": "Agents d'accueil et de guichet des administrations publiques",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52A2",
+    "label": "Employés de la fonction publique (secrétariat, gestion, comptabilité)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52A3",
+    "label": "Employés administratifs de la fonction publique à technicité spécifique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52A4",
+    "label": "Facteurs et employés du service universel du courrier",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52B1",
+    "label": "Agents de service de nettoyage (État, collectivités territoriales)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52B2",
+    "label": "Agents de service de surveillance et de restauration (État, collectivités territoriales)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52B3",
+    "label": "Agents de service des établissements de santé",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52C1",
+    "label": "Aides-soignants",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52C2",
+    "label": "Assistants de professions médicales et paramédicales",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52C3",
+    "label": "Auxiliaires de puériculture",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52C4",
+    "label": "Agents spécialisés de crèche et des écoles maternelles",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52C5",
+    "label": "Aides médico-psychologiques et professions assimilées",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "52C6",
+    "label": "Ambulanciers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "53A1",
+    "label": "Personnels d’encadrement et d’application de la Police nationale",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "53A2",
+    "label": "Agents des polices municipales",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "53A3",
+    "label": "Personnels d’encadrement et d’application de l’administration pénitentiaire",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "53B1",
+    "label": "Gendarmes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "53B2",
+    "label": "Sous-officiers subalternes des Armées",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "53B3",
+    "label": "Militaires du rang",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "53C1",
+    "label": "Pompiers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "53D1",
+    "label": "Agents de sécurité et surveillance privées",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "54A1",
+    "label": "Hôtes d'accueil et standardistes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "54A2",
+    "label": "Secrétaires, employés de la bureautique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "54A3",
+    "label": "Employés des services comptables et financiers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "54B1",
+    "label": "Employés commerciaux de la banque et des assurances",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "54B2",
+    "label": "Employés techniques de la banque, des assurances et des organismes de sécurité sociale",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "54C1",
+    "label": "Contrôleurs et agents d'accompagnement des transports et du tourisme",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "54C2",
+    "label": "Employés des services commerciaux des transports de voyageurs et du tourisme",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "54C3",
+    "label": "Employés administratifs d'exploitation des transports de marchandises et de la logistique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "54D1",
+    "label": "Employés administratifs des services commerciaux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "54D2",
+    "label": "Employés des autres services administratifs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "55A1",
+    "label": "Vendeurs en produits alimentaires",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "55B1",
+    "label": "Vendeurs de biens pour le foyer",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "55B2",
+    "label": "Vendeurs en produits de beauté, culturels et de loisirs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "55B3",
+    "label": "Vendeurs en habillement et articles de sport",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "55B4",
+    "label": "Autres vendeurs spécialisés (carburant, tabac, presse)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "55C1",
+    "label": "Vendeurs non spécialisés",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "55D1",
+    "label": "Caissiers du commerce",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "55D2",
+    "label": "Employés de libre-service du commerce",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "55E1",
+    "label": "Télévendeurs, téléconseillers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56A1",
+    "label": "Serveurs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56A2",
+    "label": "Employés polyvalents de la restauration, aides de cuisine",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56A3",
+    "label": "Employés d'accueil et de réception de l'hôtellerie",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56A4",
+    "label": "Employés d'étage, employés polyvalents de l'hôtellerie",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56B1",
+    "label": "Coiffeurs",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56B2",
+    "label": "Esthéticiens et autres employés des soins corporels",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56C1",
+    "label": "Assistants familiaux, familles d'accueil",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56C2",
+    "label": "Assistants maternels agréés",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56C3",
+    "label": "Autres salariés de particuliers pour la garde d’enfants",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56D1",
+    "label": "Auxiliaires de vie sociale",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56D2",
+    "label": "Autres employés d’aide à domicile et accueillants familiaux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56E1",
+    "label": "Employés de maison et personnels de ménage chez des particuliers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56E2",
+    "label": "Concierges et gardiens d'immeuble d'habitation",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "56F1",
+    "label": "Autres employés des services aux particuliers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62A1",
+    "label": "Conducteurs d’engins de chantier des travaux publics",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62A2",
+    "label": "Autres ouvriers qualifiés des travaux publics et des industries extractives",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62B1",
+    "label": "Câbleurs en électricité et électronique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62B2",
+    "label": "Mécaniciens monteurs, ajusteurs qualifiés",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62B3",
+    "label": "Ouvriers qualifiés d’usinage des métaux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62B4",
+    "label": "Ouvriers qualifiés du traçage, découpage, formage et soudage des métaux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62C1",
+    "label": "Ouvriers qualifiés de l’agroalimentaire",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62C2",
+    "label": "Ouvriers qualifiés de la métallurgie, de la production verrière et des matériaux de construction",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62C3",
+    "label": "Ouvriers qualifiés de la chimie, de la plasturgie et des matériaux composites",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62C4",
+    "label": "Ouvriers qualifiés de l’eau, de l’énergie et du traitement des déchets",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62D1",
+    "label": "Ouvriers qualifiés du textile, de l’habillement et du cuir",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62D2",
+    "label": "Ouvriers qualifiés du bois et de la fabrication de papier-carton",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62D3",
+    "label": "Ouvriers qualifiés de la composition, de l’impression et du façonnage du papier-carton",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62E1",
+    "label": "Conducteurs qualifiés de lignes de production",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62E2",
+    "label": "Régleurs qualifiés d’équipements de fabrication",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62E3",
+    "label": "Ouvriers qualifiés des traitements thermiques et de surface",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62E4",
+    "label": "Ouvriers qualifiés de contrôle et d’essais et de laboratoire (hors santé, hors imprimerie)",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "62E5",
+    "label": "Ouvriers qualifiés de maintenance et d’entretien des équipements industriels",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63A1",
+    "label": "Ouvriers des parcs et jardins",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63B1",
+    "label": "Maçons et ouvriers qualifiés du travail de la pierre",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63B2",
+    "label": "Charpentiers et couvreurs qualifiés",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63B3",
+    "label": "Menuisiers qualifiés du bâtiment",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63B4",
+    "label": "Plombiers, chauffagistes qualifiés",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63B5",
+    "label": "Électriciens qualifiés du bâtiment",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63B6",
+    "label": "Peintres et ouvriers qualifiés de la finition du bâtiment",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63B7",
+    "label": "Ouvriers qualifiés d'entretien général des bâtiments",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63C1",
+    "label": "Carrossiers qualifiés d’automobiles",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63C2",
+    "label": "Réparateurs qualifiés de véhicules et de biens d’équipement du foyer",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63C3",
+    "label": "Métalliers, ébénistes et autres ouvriers qualifiés du travail des métaux et du bois",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63C4",
+    "label": "Couturiers et ouvriers qualifiés des autres fabrications",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63D1",
+    "label": "Bouchers, charcutiers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63D2",
+    "label": "Boulangers, pâtissiers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63E1",
+    "label": "Cuisiniers et ouvriers qualifiés de la restauration",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "63F1",
+    "label": "Ouvriers d’arts, ouvriers et techniciens des spectacles",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "64A1",
+    "label": "Conducteurs routiers de transport en commun",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "64A2",
+    "label": "Conducteurs salariés de taxi et d'autres véhicules de transport individuel",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "64B1",
+    "label": "Conducteurs de poids lourds",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "64B2",
+    "label": "Chauffeurs-livreurs, conducteurs de la collecte de déchets",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "64B3",
+    "label": "Coursiers, livreurs, distributeurs à domicile",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "65A1",
+    "label": "Dockers et conducteurs d’engins lourds de manœuvre et de levage",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "65B1",
+    "label": "Caristes",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "65C1",
+    "label": "Magasiniers et ouvriers assimilés de la logistique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "65D1",
+    "label": "Conducteurs de trains, matelots de la marine marchande",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "65D2",
+    "label": "Ouvriers qualifiés sédentaires d'exploitation des transports",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67A1",
+    "label": "Ouvriers peu qualifiés des travaux publics et des industries extractives",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67B1",
+    "label": "Ouvriers peu qualifiés de l'électricité et de l'électronique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67B2",
+    "label": "Ouvriers peu qualifiés de montage et contrôle en mécanique",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67B3",
+    "label": "Ouvriers peu qualifiés du travail des métaux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67C1",
+    "label": "Ouvriers peu qualifiés de l’agroalimentaire",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67C2",
+    "label": "Ouvriers peu qualifiés de la métallurgie, de la production verrière et des matériaux de construction",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67C3",
+    "label": "Ouvriers peu qualifiés de la chimie, de la plasturgie et des matériaux composites",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67D1",
+    "label": "Ouvriers peu qualifiés du textile, de l’habillement et du cuir",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67D2",
+    "label": "Ouvriers peu qualifiés du bois, de la fabrication de papier-carton et de l’impression",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67E1",
+    "label": "Ouvriers peu qualifiés de la réception et de l'expédition",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67E2",
+    "label": "Manutentionnaires peu qualifiés et professions assimilées",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "67E3",
+    "label": "Agents peu qualifiés des services d'exploitation des transports",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "68A1",
+    "label": "Ouvriers peu qualifiés du gros œuvre du bâtiment",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "68A2",
+    "label": "Ouvriers peu qualifiés du second œuvre du bâtiment",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "68B1",
+    "label": "Ouvriers peu qualifiés de l’entretien et de la réparation de véhicules",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "68B2",
+    "label": "Ouvriers peu qualifiés du travail artisanal des matériaux",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "68C1",
+    "label": "Apprentis de l’artisanat alimentaire",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "68D1",
+    "label": "Ouvriers du nettoyage",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "68D2",
+    "label": "Ouvriers peu qualifiés de l’assainissement et du traitement des déchets",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "69A1",
+    "label": "Ouvriers agricoles de grandes cultures et de polyculture-élevage",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "69A2",
+    "label": "Ouvriers du maraîchage, de l’horticulture et des pépinières",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "69A3",
+    "label": "Ouvriers de la viticulture et de l’arboriculture fruitière",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "69A4",
+    "label": "Ouvriers de l’élevage",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "69B1",
+    "label": "Ouvriers forestiers",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "69C1",
+    "label": "Ouvriers de la pêche et de l’aquaculture",
+    "level": "D",
+    "short": ""
+  },
+  {
+    "id": "10A",
+    "label": "Exploitants agricoles",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "10B",
+    "label": "Entrepreneurs de travaux agricoles, ruraux et forestiers",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "10C",
+    "label": "Entrepreneurs de la pêche et de l’aquaculture",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "21A",
+    "label": "Entrepreneurs en parcs et jardins, paysagistes",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "21B",
+    "label": "Artisans du bâtiment et des travaux publics",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "21C",
+    "label": "Artisans de la réparation et du travail des matériaux",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "21D",
+    "label": "Artisans de l’alimentation",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "21E",
+    "label": "Artisans des services",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "22A",
+    "label": "Commerçants de produits alimentaires",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "22B",
+    "label": "Commerçants de produits non alimentaires",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "22C",
+    "label": "Exploitants de cafés, restaurants, hôtels",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "22D",
+    "label": "Intermédiaires et prestataires de services",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "23A",
+    "label": "Chefs d’entreprise de 50 personnes et plus",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "23B",
+    "label": "Chefs d’entreprise de 11 à 49 personnes",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "31A",
+    "label": "Professions libérales de santé",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "31B",
+    "label": "Professions libérales juridiques et techniques",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "33A",
+    "label": "Cadres de direction de la fonction publique, magistrats",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "33B",
+    "label": "Ingénieurs et cadres techniques de la fonction publique",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "33C",
+    "label": "Cadres administratifs de la fonction publique",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "33D",
+    "label": "Officiers des Armées et de la Gendarmerie (sauf grades de colonels, généraux et équivalents)",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "33E",
+    "label": "Responsables politiques et syndicaux",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "34A",
+    "label": "Professions de l’enseignement secondaire général et technologique",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "34B",
+    "label": "Professions de l’enseignement supérieur et de la recherche publique",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "34C",
+    "label": "Médecins et pharmaciens salariés",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "35A",
+    "label": "Cadres de la documentation et du patrimoine",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "35B",
+    "label": "Journalistes, auteurs",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "35C",
+    "label": "Cadres de la presse, de l'édition, de l'audiovisuel et des spectacles",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "35D",
+    "label": "Artistes",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "37A",
+    "label": "Cadres dirigeants des entreprises (fonctions administratives, financières et commerciales)",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "37B",
+    "label": "Cadres spécialistes des fonctions administratives et financières (hors banque, assurance, organismes de sécurité sociale)",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "37C",
+    "label": "Cadres généralistes des services administratifs et financiers",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "37D",
+    "label": "Cadres des services commerciaux et de la communication",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "37E",
+    "label": "Cadres des services techniques et commerciaux de la banque, de l’assurance, des organismes de sécurité sociale et de l’immobilier",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "37F",
+    "label": "Cadres de l'hôtellerie et de la restauration",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "38A",
+    "label": "Cadres dirigeants techniques des entreprises",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "38B",
+    "label": "Ingénieurs et cadres techniques de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "38C",
+    "label": "Ingénieurs et cadres techniques du BTP",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "38D",
+    "label": "Ingénieurs et cadres techniques de l’industrie",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "38E",
+    "label": "Ingénieurs et cadres techniques des transports (hors logistique)",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "38F",
+    "label": "Ingénieurs et cadres techniques des fonctions connexes de la production",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "38G",
+    "label": "Ingénieurs et cadres techniques de l’informatique",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "42A",
+    "label": "Enseignants du primaire et du secondaire professionnel, enseignants non titulaires",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "42B",
+    "label": "Personnels d’éducation et de surveillance des élèves",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "42C",
+    "label": "Professions de la formation, de la documentation et du sport",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "43A",
+    "label": "Infirmiers, sage-femmes et cadres de santé",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "43B",
+    "label": "Spécialistes de la rééducation",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "43C",
+    "label": "Techniciens médicaux, professions de l’appareillage médical et de la pharmacie",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "43D",
+    "label": "Travailleurs sociaux et socio-culturels",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "44A",
+    "label": "Ministres du culte et religieux consacrés",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "45A",
+    "label": "Personnels intermédiaires administratifs de la fonction publique",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "45B",
+    "label": "Personnels intermédiaires de la Police, des Armées et de la Gendarmerie",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "46A",
+    "label": "Professions intermédiaires des services administratifs d’entreprise",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "46B",
+    "label": "Responsables (non cadres) des magasins de vente et des services commerciaux",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "46C",
+    "label": "Représentants et technico-commerciaux",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "46D",
+    "label": "Chargés de clientèle et techniciens de la banque, des assurances et des organismes de sécurité sociale",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "46E",
+    "label": "Assistants et techniciens de la création artistique et de la communication",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "46F",
+    "label": "Responsables (non cadres) des transports et du tourisme",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "46G",
+    "label": "Responsables (non cadres) de la gestion et des services de l'hôtellerie-restauration",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "47A",
+    "label": "Techniciens de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "47B",
+    "label": "Techniciens du BTP",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "47C",
+    "label": "Techniciens de l’industrie",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "47D",
+    "label": "Techniciens des fonctions connexes de la production",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "47E",
+    "label": "Techniciens de l’informatique",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "47F",
+    "label": "Techniciens des laboratoires de recherche publique et de l’enseignement",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "48A",
+    "label": "Agents de maîtrise de l’agriculture, des travaux forestiers et de la pêche",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "48B",
+    "label": "Agents de maîtrise du BTP",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "48C",
+    "label": "Agents de maîtrise de l’industrie",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "48D",
+    "label": "Agents de maîtrise en installation et maintenance (hors informatique)",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "48E",
+    "label": "Responsables (non cadres) d’entrepôt, de magasinage et de manutention",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "48F",
+    "label": "Chefs de cuisine et responsables de production en restauration",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "52A",
+    "label": "Employés administratifs de la fonction publique",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "52B",
+    "label": "Agents de service de la fonction publique et de la santé",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "52C",
+    "label": "Aides-soignants, employés d’accueil de la petite enfance et professions assimilées",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "53A",
+    "label": "Agents de police et de surveillance pénitentiaire",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "53B",
+    "label": "Sous-officiers subalternes et militaires du rang des Armées et de la Gendarmerie",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "53C",
+    "label": "Agents de sécurité civile",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "53D",
+    "label": "Agents de sécurité et surveillance privées",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "54A",
+    "label": "Employés de l’accueil, du secrétariat et de la comptabilité",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "54B",
+    "label": "Employés de la banque, des assurances et des organismes de sécurité sociale",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "54C",
+    "label": "Employés du transport et du tourisme",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "54D",
+    "label": "Autres employés administratifs d'entreprise",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "55A",
+    "label": "Vendeurs en produits alimentaires",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "55B",
+    "label": "Vendeurs en produits non alimentaires",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "55C",
+    "label": "Vendeurs non spécialisés",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "55D",
+    "label": "Caissiers, employés de libre-service",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "55E",
+    "label": "Télévendeurs, téléconseillers",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "56A",
+    "label": "Employés de cafés, restaurants et hôtels",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "56B",
+    "label": "Employés des soins corporels",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "56C",
+    "label": "Assistants maternels, gardes d'enfants, assistants familiaux",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "56D",
+    "label": "Aides au maintien à domicile des personnes fragiles",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "56E",
+    "label": "Aides domestiques, concierges",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "56F",
+    "label": "Autres employés des services aux particuliers",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "62A",
+    "label": "Ouvriers qualifiés des travaux publics et des industries extractives",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "62B",
+    "label": "Ouvriers qualifiés de l’électricité, de l’électronique, de la mécanique et du travail des métaux",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "62C",
+    "label": "Ouvriers qualifiés de l’agroalimentaire, de la métallurgie, de la chimie, de la production des matériaux, de l’eau et de l’énergie",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "62D",
+    "label": "Ouvriers qualifiés du travail des matériaux souples et des autres industries",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "62E",
+    "label": "Ouvriers qualifiés des fonctions transverses de l’industrie",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "63A",
+    "label": "Ouvriers des parcs et jardins",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "63B",
+    "label": "Ouvriers qualifiés du bâtiment",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "63C",
+    "label": "Ouvriers qualifiés de la réparation et du travail artisanal des matériaux",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "63D",
+    "label": "Ouvriers qualifiés de l’artisanat alimentaire",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "63E",
+    "label": "Ouvriers qualifiés de la restauration",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "63F",
+    "label": "Ouvriers qualifiés de l’art et des spectacles",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "64A",
+    "label": "Conducteurs de véhicules de transport de personnes",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "64B",
+    "label": "Conducteurs de véhicules de transport de marchandises, livreurs",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "65A",
+    "label": "Dockers et conducteurs d’engins lourds de manœuvre et de levage",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "65B",
+    "label": "Caristes",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "65C",
+    "label": "Magasiniers et ouvriers assimilés de la logistique",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "65D",
+    "label": "Ouvriers qualifiés du transport non routier",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "67A",
+    "label": "Ouvriers peu qualifiés des travaux publics et des industries extractives",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "67B",
+    "label": "Ouvriers peu qualifiés de l'électricité, de l'électronique, de la mécanique et du travail des métaux",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "67C",
+    "label": "Ouvriers peu qualifiés de l’agroalimentaire, de la métallurgie, de la chimie et de la production des matériaux",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "67D",
+    "label": "Ouvriers peu qualifiés du travail des matériaux souples et des autres industries",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "67E",
+    "label": "Ouvriers peu qualifiés du transport et de la logistique",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "68A",
+    "label": "Ouvriers peu qualifiés du bâtiment",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "68B",
+    "label": "Ouvriers peu qualifiés de la réparation de véhicules et du travail artisanal des matériaux",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "68C",
+    "label": "Apprentis de l’artisanat alimentaire",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "68D",
+    "label": "Ouvriers peu qualifiés du nettoyage, de l’assainissement et du traitement des déchets",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "69A",
+    "label": "Ouvriers agricoles",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "69B",
+    "label": "Ouvriers forestiers",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "69C",
+    "label": "Ouvriers de la pêche et de l’aquaculture",
+    "level": "C",
+    "short": ""
+  },
+  {
+    "id": "10",
+    "label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture",
+    "level": "B",
+    "short": "Agriculteurs"
+  },
+  {
+    "id": "21",
+    "label": "Artisans",
+    "level": "B",
+    "short": "Artisans"
+  },
+  {
+    "id": "22",
+    "label": "Commerçants et assimilés",
+    "level": "B",
+    "short": "Commerçants et assimilés"
+  },
+  {
+    "id": "23",
+    "label": "Chefs d’entreprise de plus de 10 personnes",
+    "level": "B",
+    "short": "Chefs d’entreprise de plus de 10 personnes"
+  },
+  {
+    "id": "31",
+    "label": "Professions libérales",
+    "level": "B",
+    "short": "Professions libérales"
+  },
+  {
+    "id": "33",
+    "label": "Cadres administratifs et techniques de la fonction publique",
+    "level": "B",
+    "short": "Cadres de la fonction publique"
+  },
+  {
+    "id": "34",
+    "label": "Professeurs et professions scientifiques supérieures",
+    "level": "B",
+    "short": "Professeurs et professions scientifiques"
+  },
+  {
+    "id": "35",
+    "label": "Professions de l’information, de l’art et des spectacles",
+    "level": "B",
+    "short": "Professions de l’information, de l’art et des spectacles"
+  },
+  {
+    "id": "37",
+    "label": "Cadres des services administratifs et commerciaux d’entreprise",
+    "level": "B",
+    "short": "Cadres administratifs et commerciaux"
+  },
+  {
+    "id": "38",
+    "label": "Ingénieurs et cadres techniques d’entreprise",
+    "level": "B",
+    "short": "Cadres techniques d’entreprise"
+  },
+  {
+    "id": "42",
+    "label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport",
+    "level": "B",
+    "short": "Professions de l’enseignement primaire et professionnel"
+  },
+  {
+    "id": "43",
+    "label": "Professions intermédiaires de la santé et du travail social",
+    "level": "B",
+    "short": "Intermédiaires de la santé et du travail social"
+  },
+  {
+    "id": "44",
+    "label": "Ministres du culte et religieux consacrés",
+    "level": "B",
+    "short": "Religieux"
+  },
+  {
+    "id": "45",
+    "label": "Professions intermédiaires de la fonction publique (administration, sécurité)",
+    "level": "B",
+    "short": "Intermédiaires de la fonction publique"
+  },
+  {
+    "id": "46",
+    "label": "Professions intermédiaires administratives et commerciales des entreprises",
+    "level": "B",
+    "short": "Intermédiaires des entreprises"
+  },
+  {
+    "id": "47",
+    "label": "Techniciens",
+    "level": "B",
+    "short": "Techniciens"
+  },
+  {
+    "id": "48",
+    "label": "Agents de maîtrise (hors maîtrise administrative)",
+    "level": "B",
+    "short": "Agents de maîtrise de production"
+  },
+  {
+    "id": "52",
+    "label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé",
+    "level": "B",
+    "short": "Employés de la fonction publique"
+  },
+  {
+    "id": "53",
+    "label": "Policiers, militaires, pompiers, agents de sécurité privée",
+    "level": "B",
+    "short": "Policiers, militaires et agents de sécurité privée"
+  },
+  {
+    "id": "54",
+    "label": "Employés administratifs d'entreprise",
+    "level": "B",
+    "short": "Employés administratifs d'entreprise"
+  },
+  {
+    "id": "55",
+    "label": "Employés de commerce",
+    "level": "B",
+    "short": "Employés de commerce"
+  },
+  {
+    "id": "56",
+    "label": "Personnels des services directs aux particuliers",
+    "level": "B",
+    "short": "Personnels des services aux particuliers"
+  },
+  {
+    "id": "62",
+    "label": "Ouvriers qualifiés de type industriel",
+    "level": "B",
+    "short": "Ouvriers qualifiés de type industriel"
+  },
+  {
+    "id": "63",
+    "label": "Ouvriers qualifiés de type artisanal",
+    "level": "B",
+    "short": "Ouvriers qualifiés de type artisanal"
+  },
+  {
+    "id": "64",
+    "label": "Conducteurs de véhicules de transport, chauffeurs-livreurs, coursiers",
+    "level": "B",
+    "short": "Conducteurs du transport"
+  },
+  {
+    "id": "65",
+    "label": "Conducteurs d’engins, caristes, magasiniers et ouvriers du transport (non routier)",
+    "level": "B",
+    "short": "Conducteurs d’engins et magasiniers"
+  },
+  {
+    "id": "67",
+    "label": "Ouvriers peu qualifiés de type industriel",
+    "level": "B",
+    "short": "Ouvriers peu qualifiés de type industriel"
+  },
+  {
+    "id": "68",
+    "label": "Ouvriers peu qualifiés de type artisanal",
+    "level": "B",
+    "short": "Ouvriers peu qualifiés de type artisanal"
+  },
+  {
+    "id": "69",
+    "label": "Ouvriers agricoles, des travaux forestiers, de la pêche et de l’aquaculture",
+    "level": "B",
+    "short": "Ouvriers agricoles"
+  },
+  {
+    "id": "1",
+    "label": "Agriculteurs exploitants",
+    "level": "A",
+    "short": "Agriculteurs"
+  },
+  {
+    "id": "2",
+    "label": "Artisans, commerçants et chefs d’entreprise",
+    "level": "A",
+    "short": "Artisans, commerçants et chefs d’entreprise"
+  },
+  {
+    "id": "3",
+    "label": "Cadres et professions intellectuelles supérieures",
+    "level": "A",
+    "short": "Cadres"
+  },
+  {
+    "id": "4",
+    "label": "Professions intermédiaires",
+    "level": "A",
+    "short": "Professions intermédiaires"
+  },
+  {
+    "id": "5",
+    "label": "Employés",
+    "level": "A",
+    "short": "Employés"
+  },
+  {
+    "id": "6",
+    "label": "Ouvriers",
+    "level": "A",
+    "short": "Ouvriers"
+  }
 ]

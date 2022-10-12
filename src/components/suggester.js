@@ -11,7 +11,17 @@ import ListItemText from "@mui/material/ListItemText";
 import ListItemButton from "@mui/material/ListItemButton";
 import Chip from "@mui/material/Chip";
 
-function Suggester({ searching }) {
+function DefaultOption({ label, id }) {
+  return (
+    <ListItem key={id} secondaryAction={<Chip label={id} variant="outlined" />}>
+      <ListItemButton>
+        <ListItemText primary={label} />
+      </ListItemButton>
+    </ListItem>
+  );
+}
+
+function Suggester({ searching, option: Option = DefaultOption }) {
   const inputEl = useRef();
   const [open, setOpen] = useState(false);
   const [options, setOptions] = useState([]);
@@ -40,17 +50,8 @@ function Suggester({ searching }) {
     [searching]
   );
 
-  const items = options.map(function ({ libm, code, id }) {
-    return (
-      <ListItem
-        key={id}
-        secondaryAction={<Chip label={code} variant="outlined" />}
-      >
-        <ListItemButton>
-          <ListItemText primary={libm} />
-        </ListItemButton>
-      </ListItem>
-    );
+  const items = options.map(function ({ label, id, ...rest }) {
+    return <Option key={id} label={label} id={id} {...rest} />;
   });
 
   return (
@@ -69,7 +70,7 @@ function Suggester({ searching }) {
                 sx={{
                   width: "100%",
                   maxWidth: 360,
-                  bgcolor: "background.paper",
+                  bgcolor: "GhostWhite",
                 }}
               >
                 <nav aria-label="main mailbox folders">

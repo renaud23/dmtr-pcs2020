@@ -1,6 +1,3 @@
-import { useState, useMemo, useEffect } from "react";
-import Stack from "@mui/material/Stack";
-import Paper from "@mui/material/Paper";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import AppBar from "@mui/material/AppBar";
@@ -9,75 +6,43 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-
-import CreateIndex from "./create-index";
-import createSearching from "../js/suggester-workers/searching/create-searching";
-import Suggester from "./suggester";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
+import ListItemButton from "@mui/material/ListItemButton";
+import CardIndex from "./card-index";
+import Chip from "@mui/material/Chip";
+import { fetchPcs2020Lp, fetchPcs2020 } from "./fetch-data";
 import "./application.scss";
 
 const theme = createTheme();
 
-async function fetchPcs2020Lp() {
-  const data = await fetch(`${window.location.href}/json/pcs2020-lp.json`).then(
-    (r) => r.json()
-  );
-
-  return data;
-}
-
-// async function fetchPcs2020() {
-//   const data = await fetch(`${window.location.href}/json/pcs2020.json`).then(
-//     (r) => r.json()
-//   );
-
-//   return data;
-// }
-
-function fetchCorePcs2020Lp() {
-  return fetch(`${window.location.href}/json/pcs2020-lp-core.json`).then((r) =>
-    r.json()
-  );
-}
-
-let init = false;
-
-function CardIndex({ data, storeInfo, searching, libelle }) {
+function OptionLp({ libm, code }) {
   return (
-    <Paper sx={{ width: "fit-content", padding: "8px 8px" }}>
-      <Typography variant="h2"> {libelle}</Typography>
-      <Stack spacing={2} direction="row">
-        <CreateIndex data={data} storeInfo={storeInfo} />
-        <Suggester searching={searching} />
-      </Stack>
-    </Paper>
+    <ListItem
+      key={code}
+      secondaryAction={<Chip label={code} variant="outlined" />}
+    >
+      <ListItemButton>
+        <ListItemText primary={libm} />
+      </ListItemButton>
+    </ListItem>
+  );
+}
+
+function OptionPcs2020({ level, id, label }) {
+  return (
+    <ListItem
+      key={id}
+      secondaryAction={<Chip label={`${id} - ${level}`} variant="outlined" />}
+    >
+      <ListItemButton>
+        <ListItemText primary={label} />
+      </ListItemButton>
+    </ListItem>
   );
 }
 
 function App() {
-  const [data, setData] = useState(undefined);
-  const [storeInfo, setStoreInfo] = useState(undefined);
-
-  const searching = useMemo(
-    function () {
-      if (storeInfo) {
-        const { name } = storeInfo;
-        return createSearching(name, "1");
-      }
-      return undefined;
-    },
-    [storeInfo]
-  );
-
-  useEffect(function () {
-    (async function () {
-      if (!init) {
-        init = true;
-        setStoreInfo(await fetchCorePcs2020Lp());
-        setData(await fetchPcs2020Lp());
-      }
-    })();
-  }, []);
-
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -100,10 +65,10 @@ function App() {
       </AppBar>
       <CardIndex
         libelle="Libellés des professions"
-        data={data}
-        storeInfo={storeInfo}
-        searching={searching}
+        get={fetchPcs2020Lp}
+        option={OptionLp}
       />
+      <CardIndex libelle="PCS 2020" get={fetchPcs2020} option={OptionPcs2020} />
     </ThemeProvider>
   );
 }
