@@ -41,7 +41,6 @@ function Suggester({ searching, option: Option = DefaultOption }) {
         (async function () {
           if (typeof searching === "function") {
             const { results } = await searching(value.trim());
-
             setOptions(results);
           }
         })();
