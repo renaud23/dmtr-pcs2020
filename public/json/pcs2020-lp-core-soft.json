@@ -1,0 +1,6 @@
+{
+  "name": "pcs2020",
+  "fields": [{ "name": "libm", "rules": "soft" }],
+  "queryParser": { "type": "soft" },
+  "version": "1"
+}
