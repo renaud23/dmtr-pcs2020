@@ -1,6 +1,6 @@
 {
   "name": "pcs2020-soft",
-  "fields": [{ "name": "libm", "rules": "soft" }],
+  "fields": [{ "name": "libm", "rules": "soft", "order": "ascending" }],
   "queryParser": { "type": "soft" },
   "version": "1"
 }
