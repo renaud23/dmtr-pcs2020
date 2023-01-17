@@ -5,6 +5,7 @@
       "name": "label",
       "rules": ["[\\w]+"],
       "language": "French",
+      "order": "ascending",
       "min": 2
     },
     { "name": "id" }
