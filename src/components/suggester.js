@@ -40,7 +40,10 @@ function Suggester({ searching, option: Option = DefaultOption }) {
       if (value.trim()) {
         (async function () {
           if (typeof searching === "function") {
-            const { results } = await searching(value.trim());
+            const { results, tokens, search } = await searching(value.trim());
+            console.group(search);
+            console.log(tokens);
+            console.groupEnd();
             setOptions(results);
           }
         })();
