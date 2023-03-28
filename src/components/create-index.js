@@ -9,7 +9,7 @@ const STATUS = {
   terminated: 2,
 };
 
-function CreateIndex({ storeInfo, data }) {
+function CreateIndex({ storeInfo, data, meloto }) {
   const [status, setStatus] = useState(STATUS.ready);
 
   const onClick = useCallback(
@@ -31,6 +31,7 @@ function CreateIndex({ storeInfo, data }) {
         <TaskIndex
           data={data}
           storeInfo={storeInfo}
+          meloto={meloto}
           version="1"
           onTerminated={onTerminated}
         />

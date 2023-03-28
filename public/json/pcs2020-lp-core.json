@@ -2,7 +2,7 @@
   "name": "pcs2020-lp",
   "fields": [
     {
-      "name": "libm",
+      "name": "label",
       "rules": ["[\\w]+"],
       "language": "French",
       "min": 2
@@ -18,5 +18,31 @@
       "pattern": "[\\w.]+"
     }
   },
-  "version": "1"
+  "version": "1",
+  "meloto": true,
+  "stopWords": [
+    "a",
+    "au",
+    "dans",
+    "de",
+    "des",
+    "du",
+    "en",
+    "er",
+    "la",
+    "le",
+    "ou",
+    "sur",
+    "d",
+    "l",
+    "aux",
+    "dans",
+    "un",
+    "une",
+    "pour",
+    "avec",
+    "chez",
+    "par",
+    "les"
+  ]
 }

@@ -13,7 +13,7 @@ const STATUS = {
   terminated: 2,
 };
 
-function TaskIndex({ storeInfo, data, version, onTerminated }) {
+function TaskIndex({ storeInfo, data, version, onTerminated, meloto = true }) {
   const [percent, setPercent] = useState(0);
   const [status, setStatus] = useState(STATUS.ready);
   const [startTime, setStartTime] = useState(undefined);
@@ -42,7 +42,7 @@ function TaskIndex({ storeInfo, data, version, onTerminated }) {
         if (db && status === STATUS.ready) {
           setStatus(STATUS.running);
           await clearStoreData(db);
-          await updateStoreInfo(db, storeInfo);
+          await updateStoreInfo(db, { ...storeInfo, meloto });
           const [index, abort] = createAppendTask(storeInfo, version, log);
           abort_ = abort;
 
@@ -52,7 +52,7 @@ function TaskIndex({ storeInfo, data, version, onTerminated }) {
       })();
       return () => abort_();
     },
-    [data, db, storeInfo, version, status, log]
+    [data, db, storeInfo, version, status, log, meloto]
   );
 
   return (

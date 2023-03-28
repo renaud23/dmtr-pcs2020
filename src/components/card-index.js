@@ -1,7 +1,9 @@
 import { useState, useMemo, useEffect } from "react";
 import Stack from "@mui/material/Stack";
+import Switch from "@mui/material/Switch";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
+import FormControlLabel from "@mui/material/FormControlLabel";
 import CreateIndex from "./create-index";
 import createSearching from "../js/suggester-workers/searching/create-searching";
 import Suggester from "./suggester";
@@ -9,6 +11,7 @@ import Suggester from "./suggester";
 function CardIndex({ libelle, get, option }) {
   const [data, setData] = useState(undefined);
   const [storeInfo, setStoreInfo] = useState(undefined);
+  const [meloto, setMeloto] = useState(true);
 
   useEffect(
     function () {
@@ -28,16 +31,17 @@ function CardIndex({ libelle, get, option }) {
     function () {
       if (storeInfo) {
         const { name } = storeInfo;
-        return createSearching(name, "1");
+        return createSearching({ name, version: "1", meloto });
       }
       return () => null;
     },
-    [storeInfo]
+    [storeInfo, meloto]
   );
 
   if (!data || !storeInfo) {
     return <div>waiting data!</div>;
   }
+
   return (
     <Paper
       elevation={2}
@@ -50,8 +54,14 @@ function CardIndex({ libelle, get, option }) {
     >
       <Typography variant="h2"> {libelle}</Typography>
       <Stack spacing={2} direction="row">
-        <CreateIndex data={data} storeInfo={storeInfo} />
+        <CreateIndex data={data} storeInfo={storeInfo} meloto={meloto} />
         <Suggester searching={searching} option={option} />
+        <FormControlLabel
+          control={
+            <Switch checked={meloto} onChange={() => setMeloto(!meloto)} />
+          }
+          label="meloto"
+        />
       </Stack>
     </Paper>
   );

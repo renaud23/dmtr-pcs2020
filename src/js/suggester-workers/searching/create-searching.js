@@ -11,38 +11,40 @@ export function isWorkerCompatible() {
   return false;
 }
 
-const searching = (worker) => (search, name, version) => {
-  if (!WORKER_PATH) {
-    throw new Error("Worker path is required for suggester's searches.");
-  }
-  if (isWorkerCompatible()) {
-    return new Promise(function (resolve) {
-      try {
-        if (worker) {
-          worker.terminate();
+const searching =
+  (worker) =>
+  (search, { name, version, meloto }) => {
+    if (!WORKER_PATH) {
+      throw new Error("Worker path is required for suggester's searches.");
+    }
+    if (isWorkerCompatible()) {
+      return new Promise(function (resolve) {
+        try {
+          if (worker) {
+            worker.terminate();
+          }
+          worker = createWorker(WORKER_PATH);
+          worker.postMessage({ search, name, version, meloto });
+          worker.addEventListener("message", function (e) {
+            const { data } = e;
+            resolve(data);
+            worker.terminate();
+            worker = undefined;
+          });
+        } catch (e) {
+          //TODO
         }
-        worker = createWorker(WORKER_PATH);
-        worker.postMessage({ search, name, version });
-        worker.addEventListener("message", function (e) {
-          const { data } = e;
-          resolve(data);
-          worker.terminate();
-          worker = undefined;
-        });
-      } catch (e) {
-        //TODO
-      }
-    });
-  } else {
-    // TODO
-  }
-};
+      });
+    } else {
+      // TODO
+    }
+  };
 
-function createSearching(name, version) {
+function createSearching({ name, version, meloto = true }) {
   let worker = undefined;
   const searching_ = searching(worker);
   return async function (search) {
-    return searching_(search, name, version);
+    return searching_(search, { name, version, meloto });
   };
 }
 

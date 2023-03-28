@@ -1,4 +1,4 @@
-import { useCallback, useState, useRef } from "react";
+import { useCallback, useState, useRef, useEffect } from "react";
 import Popper from "@mui/material/Popper";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
@@ -25,6 +25,7 @@ function Suggester({ searching, option: Option = DefaultOption }) {
   const inputEl = useRef();
   const [open, setOpen] = useState(false);
   const [options, setOptions] = useState([]);
+  const [search, setSearch] = useState("");
 
   function onFocus() {
     setOpen(true);
@@ -34,27 +35,55 @@ function Suggester({ searching, option: Option = DefaultOption }) {
     setOpen(false);
   }
 
-  const onChange = useCallback(
-    function (e) {
-      const { value } = e.target;
-      if (value.trim()) {
-        (async function () {
-          if (typeof searching === "function") {
-            const { results, tokens, search } = await searching(value.trim());
-            console.group(search);
-            console.log(tokens);
-            console.groupEnd();
-            setOptions(results);
-          }
-        })();
+  const onChange = useCallback(function (e) {
+    setSearch(e.target.value);
+    // const { value } = e.target;
+    // if (value.trim()) {
+    //   (async function () {
+    //     if (typeof searching === "function") {
+    //       const { results, tokens, search } = await searching(value.trim());
+    //       console.group(search);
+    //       console.log(tokens);
+    //       console.groupEnd();
+    //       setOptions(results);
+    //     }
+    //   })();
+    // }
+  }, []);
+
+  const items = options.map(function ({ label, id, ...rest }) {
+    return <Option key={id} label={label} id={id} {...rest} />;
+  });
+
+  const go = useCallback(
+    async (s) => {
+      if (typeof searching === "function") {
+        const { results, tokens, search } = await searching(s.trim());
+        console.group(search);
+        console.log(tokens);
+        console.groupEnd();
+        setOptions(results);
       }
     },
     [searching]
   );
 
-  const items = options.map(function ({ label, id, ...rest }) {
-    return <Option key={id} label={label} id={id} {...rest} />;
-  });
+  useEffect(
+    function () {
+      if (search.trim()) {
+        go(search);
+      }
+    },
+    [search, go]
+  );
+
+  useEffect(
+    function () {
+      if (typeof searching === "function") {
+      }
+    },
+    [searching]
+  );
 
   return (
     <ClickAwayListener onClickAway={onBlur}>
@@ -65,7 +94,13 @@ function Suggester({ searching, option: Option = DefaultOption }) {
           onFocus={onFocus}
           onChange={onChange}
         />
-        <Popper id="toto" open={open} anchorEl={inputEl.current} transition>
+        <Popper
+          id="toto"
+          open={open}
+          anchorEl={inputEl.current}
+          transition
+          style={{ zIndex: 1 }}
+        >
           {({ TransitionProps }) => (
             <Fade {...TransitionProps} timeout={350}>
               <Paper

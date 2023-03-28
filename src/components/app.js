@@ -11,19 +11,19 @@ import ListItemText from "@mui/material/ListItemText";
 import ListItemButton from "@mui/material/ListItemButton";
 import CardIndex from "./card-index";
 import Chip from "@mui/material/Chip";
-import { fetchPcs2020Lp, fetchPcs2020, fetchPcs2020LpSoft } from "./fetch-data";
+import { fetchPcs2020Lp, fetchPcs2020 } from "./fetch-data";
 import "./application.scss";
 
 const theme = createTheme();
 
-function OptionLp({ libm, code }) {
+function OptionLp({ label, code }) {
   return (
     <ListItem
       key={code}
       secondaryAction={<Chip label={code} variant="outlined" />}
     >
       <ListItemButton>
-        <ListItemText primary={libm} />
+        <ListItemText primary={label} />
       </ListItemButton>
     </ListItem>
   );
@@ -68,11 +68,11 @@ function App() {
         get={fetchPcs2020Lp}
         option={OptionLp}
       />
-      <CardIndex
+      {/* <CardIndex
         libelle="Libellés des professions - soft (ni tokenisation, ni stemming)"
         get={fetchPcs2020LpSoft}
         option={OptionLp}
-      />
+      /> */}
       <CardIndex libelle="PCS 2020" get={fetchPcs2020} option={OptionPcs2020} />
     </ThemeProvider>
   );
